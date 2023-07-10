@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://mslw.github.io/meeting-website-draft/'
 languageCode = 'en-us'
 title = 'Title TBD'
 theme = "PaperMod"
