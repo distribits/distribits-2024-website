@@ -1,3 +1,16 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Title TBD'
+theme = "PaperMod"
+
+# see https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-configyml
+
+[params]
+  [params.profileMode]
+    enabled = true
+    # title= "<Title>" # optional default will be site title
+    subtitle = "DataLad and git-annex showcase and hackathon"
+    # imageUrl = "<img location>"
+    # imageTitle = "my image"
+    # imageWidth = 120
+    # imageHeight = 120
