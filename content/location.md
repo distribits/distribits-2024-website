@@ -19,3 +19,4 @@ Schadowplatz 14
 
 - 25 min by public transport from the airport (DUS)
 - 16 min walk from the train station
+- See [directions](https://www.hdu.hhu.de/en/directions-contact-details) at the venue website
