@@ -14,3 +14,9 @@ theme = "PaperMod"
     # imageTitle = "my image"
     # imageWidth = 120
     # imageHeight = 120
+
+  # repeat as many times as needed
+  # icon names -> grep icon_name themes/PaperMod/layouts/partials/svg.html
+  # [[params.socialIcons]]
+  # name = "mastodon"
+  # url = "https://fosstodon.org/@datalad"
