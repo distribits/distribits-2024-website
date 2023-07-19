@@ -1,6 +1,6 @@
 baseURL = 'https://mslw.github.io/meeting-website-draft/'
 languageCode = 'en-us'
-title = 'Title TBD'
+title = 'Distribits'
 theme = "PaperMod"
 
 # see https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-configyml
