@@ -1,4 +1,4 @@
-baseURL = 'https://mslw.github.io/meeting-website-draft/'
+baseURL = 'https://datalad.github.io/distribits-2024-website/'
 languageCode = 'en-us'
 title = 'Distribits'
 theme = "PaperMod"
