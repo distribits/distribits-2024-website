@@ -1,6 +1,6 @@
-baseURL = 'https://datalad.github.io/distribits-2024-website/'
+baseURL = 'http://datalad.github.io/distribits-2024-website/'
 languageCode = 'en-us'
-title = 'Distribits'
+title = 'distribits'
 theme = "PaperMod"
 
 # see https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-configyml
@@ -8,15 +8,17 @@ theme = "PaperMod"
 [params]
   [params.profileMode]
     enabled = true
-    # title= "<Title>" # optional default will be site title
-    subtitle = "DataLad and git-annex showcase and hackathon"
-    # imageUrl = "<img location>"
-    # imageTitle = "my image"
-    # imageWidth = 120
-    # imageHeight = 120
+    title = 'Connecting data islands and lakes'
+    subtitle = "supported by DataLad and git-annex"
+    imageUrl = "pics/distribits_logo_a.svg"
+    imageTitle = "distribits_logo"
+    imageWidth = 800
 
   # repeat as many times as needed
   # icon names -> grep icon_name themes/PaperMod/layouts/partials/svg.html
-  # [[params.socialIcons]]
-  # name = "mastodon"
-  # url = "https://fosstodon.org/@datalad"
+  [[params.socialIcons]]
+    name = "mastodon"
+    url = "https://fosstodon.org/@datalad"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/datalad"
