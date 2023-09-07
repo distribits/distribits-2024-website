@@ -1,7 +1,7 @@
 ---
 title: "Schedule"
 menu: "main"
-weight: 2
+weight: 4
 ---
 
 Preliminary schedule:
