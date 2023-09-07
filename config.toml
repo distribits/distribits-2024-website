@@ -1,4 +1,4 @@
-baseURL = 'http://datalad.github.io/distribits-2024-website/'
+baseURL = 'https://datalad.github.io/distribits-2024-website/'
 languageCode = 'en-us'
 title = 'distribits'
 theme = "PaperMod"
