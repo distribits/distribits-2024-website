@@ -1,7 +1,7 @@
 ---
 title: "Location"
 menu: "main"
-weight: 2
+weight: 3
 ---
 
 ## Venue

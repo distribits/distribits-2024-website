@@ -9,10 +9,19 @@ theme = "PaperMod2"
   [params.profileMode]
     enabled = true
     title = 'Connecting data islands and lakes'
-    subtitle = "supported by DataLad and git-annex"
+    subtitle = "Supported by DataLad and git-annex"
     imageUrl = "pics/distribits_logo_a.svg"
     imageTitle = "distribits_logo"
     imageWidth = 800
+  [[params.profileMode.buttons]]
+    name = "🚀 Register"
+    url = "/registration"
+  [[params.profileMode.buttons]]
+    name = "💡 About"
+    url = "/about"
+  [[params.profileMode.buttons]]
+    name = "🔄 News"
+    url = "/news"
 
   # repeat as many times as needed
   # icon names -> grep icon_name themes/PaperMod/layouts/partials/svg.html
@@ -22,3 +31,6 @@ theme = "PaperMod2"
   [[params.socialIcons]]
     name = "twitter"
     url = "https://twitter.com/datalad"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/datalad"
