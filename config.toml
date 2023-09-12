@@ -5,6 +5,12 @@ theme = "PaperMod2"
 
 # see https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-configyml
 
+[menu]
+  [[menu.main]]
+    name = 'Registration'
+    url = 'https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/'
+    weight = 2
+
 [params]
   [params.profileMode]
     enabled = true
@@ -15,7 +21,7 @@ theme = "PaperMod2"
     imageWidth = 800
   [[params.profileMode.buttons]]
     name = "🚀 Register"
-    url = "/registration"
+    url = 'https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/'
   [[params.profileMode.buttons]]
     name = "💡 About"
     url = "/about"
@@ -27,10 +33,10 @@ theme = "PaperMod2"
   # icon names -> grep icon_name themes/PaperMod/layouts/partials/svg.html
   [[params.socialIcons]]
     name = "mastodon"
-    url = "https://fosstodon.org/@datalad"
+    url = "https://fosstodon.org/@distribits"
   [[params.socialIcons]]
     name = "twitter"
-    url = "https://twitter.com/datalad"
+    url = "https://twitter.com/distribits"
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/distribits"
