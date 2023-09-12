@@ -8,8 +8,8 @@ theme = "PaperMod2"
 [params]
   [params.profileMode]
     enabled = true
-    title = 'Connecting data islands and lakes'
-    subtitle = "Supported by DataLad and git-annex"
+    title = 'Technologies for distributed data management'
+    # subtitle = "Supported by DataLad and git-annex"
     imageUrl = "pics/distribits_logo_a.svg"
     imageTitle = "distribits_logo"
     imageWidth = 800
