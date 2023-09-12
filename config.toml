@@ -33,4 +33,4 @@ theme = "PaperMod2"
     url = "https://twitter.com/datalad"
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/datalad"
+    url = "https://github.com/distribits"
