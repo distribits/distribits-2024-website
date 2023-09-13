@@ -35,8 +35,5 @@ theme = "PaperMod2"
     name = "mastodon"
     url = "https://fosstodon.org/@distribits"
   [[params.socialIcons]]
-    name = "twitter"
-    url = "https://twitter.com/distribits"
-  [[params.socialIcons]]
     name = "github"
     url = "https://github.com/distribits"
