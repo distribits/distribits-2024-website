@@ -1,1 +1,3 @@
 .hugo_build.lock
+ignore/
+*.DS_Store
