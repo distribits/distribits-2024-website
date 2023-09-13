@@ -55,7 +55,7 @@ The event takes place in downtown Düsseldorf with plenty of options available.
 
 ### Submit proposals and register
 
-Please submit your proposal and register via our [online submission/registration system](/registration).
+Please submit your proposal and register via our [online submission/registration system](https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/).
 
 
 ### Contact and further information
