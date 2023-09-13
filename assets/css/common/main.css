@@ -66,3 +66,8 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+.pinklinks a {
+    color: var(--distribits-pink);
+    text-decoration: underline;
+}
