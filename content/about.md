@@ -22,6 +22,13 @@ It is organized by the people behind the [git-annex](https://git-annex.branchabl
 The event will comprise a two-day conference and an additional hackathon day.
 
 
+### Audience
+
+We target a diverse audience to promote a stimulating exchange across professions, disciplines, and expertise.
+Attendees may include researchers, data stewards for collaborative initiatives, data scientists, software developers from academic or corporate environments, or simply enthusiastic individuals.
+Some people will have expertise with tools like git-annex and DataLad, but this is not a requirement for participation.
+
+
 ### Conference
 
 We are planning the conference as a single-track event.
@@ -43,16 +50,6 @@ The capacity for this event is smaller. We thus ask everyone interested to indic
 We plan to prioritize efforts that promote interoperability of tools and workflows with free and open solutions.
 
 
-### Audience
-
-We target a diverse audience to promote a stimulating exchange across professions, disciplines, and expertise.
-Attendees may include researchers, data stewards for collaborative initiatives, data scientists, software developers from academic or corporate environments, or simply enthusiastic individuals.
-Some people will have expertise with tools like git-annex and DataLad, but this is not a requirement for participation.
-
-Given the free nature of the event, attendees are expected to organize and cover their own travel, accommodation, and food.
-The event takes place in downtown Düsseldorf with plenty of options available.
-
-
 ### Submit proposals and register
 
 Please submit your proposal and register via our [online submission/registration system](https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/).
@@ -61,3 +58,6 @@ Please submit your proposal and register via our [online submission/registration
 ### Contact and further information
 
 For any further questions, please see https://distribits.live or contact distribits-org@fz-juelich.de
+
+Given the free nature of the event, attendees are expected to organize and cover their own travel, accommodation, and food.
+The event takes place in downtown Düsseldorf with plenty of options available.
