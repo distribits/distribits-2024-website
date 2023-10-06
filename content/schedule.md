@@ -4,7 +4,11 @@ menu: "main"
 weight: 4
 ---
 
-Preliminary schedule:
+**Registration opens**: September 14th
+
+**Registration and submission closes**: midnight October 15th (anywhere on Earth)
+
+### Preliminary schedule:
 
 - Conference
   - Thursday, 18 April 2024, 9--18
