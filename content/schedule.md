@@ -6,7 +6,7 @@ weight: 4
 
 **Registration opens**: September 14th
 
-**Registration and submission closes**: midnight October 15th (anywhere on Earth)
+**Registration and submission closes**: midnight October 22nd
 
 ### Preliminary schedule:
 

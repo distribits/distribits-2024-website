@@ -16,7 +16,7 @@ weight: 1
 ## Call for participation
 
 The first **distribits** meeting will happen in 2024, and we are inviting all interested parties to join!
-**Registration is open now and closes October 15th.**
+**Registration is open now and closes October 22nd.**
 
 The aim of this meeting is to bring together enthusiasts of tools and workflows in the domain of distributed data.
 It is organized by the people behind the [git-annex](https://git-annex.branchable.com) and [DataLad](https://www.datalad.org) projects.
