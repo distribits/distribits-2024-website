@@ -6,10 +6,10 @@ theme = "PaperMod2"
 # see https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-configyml
 
 [menu]
-  [[menu.main]]
-    name = 'Registration'
-    url = 'https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/'
-    weight = 2
+#  [[menu.main]]
+#    name = 'Registration'
+#    url = 'https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/'
+#    weight = 2
 
 [params]
   [params.profileMode]

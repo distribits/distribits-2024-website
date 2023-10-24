@@ -13,10 +13,14 @@ weight: 1
 
 ---
 
+**Registration is closed. Thank you for shaping an exciting event with your contribution!**
+
+We are currently creating a schedule, and will send out acceptance emails by November 1st.
+If you’ve missed the deadline but wanted to participate, please stay tuned - we will be able to accommodate late registrations in a short while.
+
 ## Call for participation
 
 The first **distribits** meeting will happen in 2024, and we are inviting all interested parties to join!
-**Registration is open now and closes October 22nd.**
 
 The aim of this meeting is to bring together enthusiasts of tools and workflows in the domain of distributed data.
 It is organized by the people behind the [git-annex](https://git-annex.branchable.com) and [DataLad](https://www.datalad.org) projects.
@@ -53,7 +57,8 @@ We plan to prioritize efforts that promote interoperability of tools and workflo
 
 ### Submit proposals and register
 
-Please submit your proposal and register via our [online submission/registration system](https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/).
+Registration and submissions are *closed*.
+If you’ve missed the deadline but wanted to participate, please stay tuned - we will be able to accommodate late registrations in a short while.
 
 
 ### Contact and further information

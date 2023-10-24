@@ -4,9 +4,11 @@ menu: "main"
 weight: 4
 ---
 
-**Registration opens**: September 14th
+*Registration opens: September 14th*
 
-**Registration and submission closes**: midnight October 22nd
+*Registration and submission closes: midnight October 22nd*
+
+**Registration and submission feedback**: by November 1st
 
 ### Preliminary schedule:
 
