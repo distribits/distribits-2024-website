@@ -19,9 +19,9 @@ theme = "PaperMod2"
     imageUrl = "pics/distribits_logo_a.svg"
     imageTitle = "distribits_logo"
     imageWidth = 800
-  [[params.profileMode.buttons]]
-    name = "🚀 Register"
-    url = 'https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/'
+#  [[params.profileMode.buttons]]
+#    name = "🚀 Register"
+#    url = 'https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/'
   [[params.profileMode.buttons]]
     name = "💡 About"
     url = "/about"
