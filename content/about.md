@@ -13,10 +13,17 @@ weight: 1
 
 ---
 
-**Registration is closed. Thank you for shaping an exciting event with your contribution!**
+**Registration Notifications and Late Submissions**
 
-We are currently creating a schedule, and will send out acceptance emails by November 1st.
-If you’ve missed the deadline but wanted to participate, please stay tuned - we will be able to accommodate late registrations in a short while.
+Notifications for registration acceptance have been sent out (November 1st).
+Thank you for shaping an exciting event with your contribution!
+However, if you missed the registration deadline, don't worry! It is now possible to
+[submit a late registration](https://cryptpad.fr/form/#/2/form/view/jnreOeG+ja0DXCESlqkgf6WRqz7vhMmxzROMyJL+q5g/)
+and add yourself to the hackathon waiting list.
+We plan to accept conference registrations until we reach the venue capacity.
+We will assess late registrations at an interval of ~ 2 weeks and will send out notification emails
+accordingly. For the hackathon, late registrations will be added to the waiting list
+and will be notified when there is a change to the application status.
 
 ## Call for participation
 
