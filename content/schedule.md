@@ -8,7 +8,9 @@ weight: 4
 
 *Registration and submission closes: midnight October 22nd*
 
-**Registration and submission feedback**: by November 1st
+*Registration and submission feedback: November 1st*
+
+**Late Registration opens, with hackathon waiting list: November 6th**
 
 ### Preliminary schedule:
 
