@@ -13,7 +13,7 @@ weight: 1
 
 ---
 
-**Registration Notifications and Late Submissions**
+**Registration Notifications and Late Registrations**
 
 Notifications for registration acceptance have been sent out (November 1st).
 Thank you for shaping an exciting event with your contribution!
