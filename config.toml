@@ -6,10 +6,10 @@ theme = "PaperMod2"
 # see https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-configyml
 
 [menu]
-#  [[menu.main]]
-#    name = 'Registration'
-#    url = 'https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/'
-#    weight = 2
+  [[menu.main]]
+    name = 'Registration'
+    url = 'https://cryptpad.fr/form/#/2/form/view/jnreOeG+ja0DXCESlqkgf6WRqz7vhMmxzROMyJL+q5g/'
+    weight = 2
 
 [params]
   [params.profileMode]
@@ -19,9 +19,9 @@ theme = "PaperMod2"
     imageUrl = "pics/distribits_logo_a.svg"
     imageTitle = "distribits_logo"
     imageWidth = 800
-#  [[params.profileMode.buttons]]
-#    name = "🚀 Register"
-#    url = 'https://cryptpad.fr/form/#/2/form/view/513x1GEsXvw8rbfBzfRSPdfsu0BYZxPWH7fZIpXMBFE/'
+  [[params.profileMode.buttons]]
+    name = "🚀 Register"
+    url = 'https://cryptpad.fr/form/#/2/form/view/jnreOeG+ja0DXCESlqkgf6WRqz7vhMmxzROMyJL+q5g/'
   [[params.profileMode.buttons]]
     name = "💡 About"
     url = "/about"
