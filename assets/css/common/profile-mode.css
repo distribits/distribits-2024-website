@@ -12,11 +12,12 @@
 
 .profile .profile_inner h1 {
     padding: 12px 0;
+    font-family: monospace;
 }
 
 .profile img {
     display: inline-table;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 .buttons {

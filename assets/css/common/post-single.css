@@ -82,6 +82,10 @@
     box-shadow: 0 -1px 0 var(--primary) inset;
 }
 
+.post-content a {
+    color: var(--distribits-pink);
+}
+
 .post-content del {
     text-decoration: line-through;
 }
