@@ -10,7 +10,11 @@ theme = "PaperMod2"
     name = 'Registration'
     url = 'https://cryptpad.fr/form/#/2/form/view/jnreOeG+ja0DXCESlqkgf6WRqz7vhMmxzROMyJL+q5g/'
     weight = 2
-
+  [[menu.main]]
+    name = "News"
+    url = "news/"
+    weight = 5
+    
 [params]
   [params.profileMode]
     enabled = true
