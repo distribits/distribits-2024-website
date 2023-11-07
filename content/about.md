@@ -4,31 +4,13 @@ menu: "main"
 weight: 1
 ---
 
----
-
+## Distribits: technologies for distributed data management
+April 18th - April 20th, 2024 at “Haus der Universität”, Düsseldorf, Germany
 ![Distribits 2024](/pics/distribits_logo_a.svg)
-## Technologies for distributed data management
-
-### April 18th - April 20th, 2024 at “Haus der Universität”, Düsseldorf, Germany
 
 ---
-
-**Registration Notifications and Late Registrations**
-
-Notifications for registration acceptance have been sent out (November 1st).
-Thank you for shaping an exciting event with your contribution!
-However, if you missed the registration deadline, don't worry! It is now possible to
-[submit a late registration](https://cryptpad.fr/form/#/2/form/view/jnreOeG+ja0DXCESlqkgf6WRqz7vhMmxzROMyJL+q5g/)
-and add yourself to the hackathon waiting list.
-We plan to accept conference registrations until we reach the venue capacity.
-We will assess late registrations at an interval of ~ 2 weeks and will send out notification emails
-accordingly. For the hackathon, late registrations will be added to the waiting list
-and will be notified when there is a change to the application status.
-
-## Call for participation
 
 The first **distribits** meeting will happen in 2024, and we are inviting all interested parties to join!
-
 The aim of this meeting is to bring together enthusiasts of tools and workflows in the domain of distributed data.
 It is organized by the people behind the [git-annex](https://git-annex.branchable.com) and [DataLad](https://www.datalad.org) projects.
 The event will comprise a two-day conference and an additional hackathon day.
@@ -62,15 +44,23 @@ The capacity for this event is smaller. We thus ask everyone interested to indic
 We plan to prioritize efforts that promote interoperability of tools and workflows with free and open solutions.
 
 
-### Submit proposals and register
+### Registration Notifications and Late Registration
 
-Registration and submissions are *closed*.
-If you’ve missed the deadline but wanted to participate, please stay tuned - we will be able to accommodate late registrations in a short while.
+Notifications for registration acceptance have been sent out (November 1st).
+Thank you for shaping an exciting event with your contribution!
+
+However, if you missed the registration deadline, don't worry! It is now possible to
+[submit a late registration](https://cryptpad.fr/form/#/2/form/view/jnreOeG+ja0DXCESlqkgf6WRqz7vhMmxzROMyJL+q5g/)
+for the conference, and add yourself to the hackathon waiting list.
+We plan to accept conference registrations until we reach the venue capacity.
+We will assess late registrations at an interval of ~ 2 weeks and will send out notification emails
+accordingly. For the hackathon, late registrations will be added to the waiting list
+and will be notified when there is a change to the application status.
 
 
 ### Contact and further information
 
-For any further questions, please see https://distribits.live or contact distribits-org@fz-juelich.de
+For any further information or questions, please see the [News]({{<ref "/news">}}) page or contact distribits-org@fz-juelich.de.
 
 Given the free nature of the event, attendees are expected to organize and cover their own travel, accommodation, and food.
-The event takes place in downtown Düsseldorf with plenty of options available.
+The event takes place in downtown Düsseldorf with plenty of options available -- see [Location]({{<ref "/Location">}}).

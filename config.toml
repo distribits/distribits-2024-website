@@ -7,10 +7,6 @@ theme = "PaperMod2"
 
 [menu]
   [[menu.main]]
-    name = 'Registration'
-    url = 'https://cryptpad.fr/form/#/2/form/view/jnreOeG+ja0DXCESlqkgf6WRqz7vhMmxzROMyJL+q5g/'
-    weight = 2
-  [[menu.main]]
     name = "News"
     url = "news/"
     weight = 5
@@ -26,12 +22,6 @@ theme = "PaperMod2"
   [[params.profileMode.buttons]]
     name = "🚀 Register"
     url = 'https://cryptpad.fr/form/#/2/form/view/jnreOeG+ja0DXCESlqkgf6WRqz7vhMmxzROMyJL+q5g/'
-  [[params.profileMode.buttons]]
-    name = "💡 About"
-    url = "/about"
-  [[params.profileMode.buttons]]
-    name = "🔄 News"
-    url = "/news"
 
   # repeat as many times as needed
   # icon names -> grep icon_name themes/PaperMod/layouts/partials/svg.html
