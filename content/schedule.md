@@ -38,6 +38,6 @@ In no particular order:
 12. Reproducible and replicable data science in the presence of patient  confidentiality concerns by utilizing git-annex and the Data Science Orchestrator (Brechtel, Markus Katharina; Research Group Cohorts in Infectious Disease and Cancer Research, University Hospitals Cologne and Frankfurt, German Centre for Infectious Diseases Research AND Kaluza, Philipp; Ghostroute Consulting)
 13. Neuroscientific data management using DataLad (Kosciessa, Julian; Donders Institute for Brain, Cognition and Behaviour, Radboud University)
 14. datalad-annex: a git-remote helper to deposit a repository in any place reachable by a git-annex special remote implementation (Hanke, Michael; Forschungszentrum Jülich)
-15. datalad-registry: a registry of datalad datasets with metadata extracted (To, Isaac; Dartmouth College, Center for Open Neuroscience)
+15. DataLad-Registry: A Registry of DataLad Datasets with Metadata (To, Isaac; Dartmouth College, Center for Open Neuroscience)
 16. "what's in the DataLad sandwich" AKA DataLad "ecosystem": overview of the core and extensions, CIs, testing, building (git-annex), logs archival (con/tinuous) (Halchenko, Yaroslav; Dartmouth College, Center for Open Neuroscience)
 17. DataLad Runner, Generator protocols. Hands-on for people interested in programming and extending (Mönch, Christian; Forschungszentrum Jülich)
