@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<icalendar xmlns="urn:ietf:params:xml:ns:xcal">
+  <vcalendar>
+    <version>2.0</version>
+    <prodid>-//Manual//Manual entry//EN</prodid>
+    <x-wr-caldesc>Distribits 2024</x-wr-caldesc>
+    <x-wr-calname>Schedule for events at Distribits 2024</x-wr-calname>
+
+    <vevent>
+      <method>PUBLISH</method>
+      <uid>0001_distribits2023@distribits.live</uid>
+      <dtstart>20240418T083000</dtstart>
+      <dtend>20240418T090000</dtend>
+      <duration>00:30:00:00</duration>
+      <summary>Coffee</summary>
+      <description>Coffee time</description>
+      <location>Foyer</location>
+    </vevent>
+
+    <vevent>
+      <uid>0002_distribits2023@distribits.live</uid>
+      <dtstart>20240418T090000</dtstart>
+      <dtend>20240418T093000</dtend>
+      <duration>00:30:00:00</duration>
+      <summary>Welcome `&amp; overview</summary>
+      <description>Welcome</description>
+      <location>Event Hall</location>
+    </vevent>
+
+    <vevent>
+      <uid>0003_distribits2023@distribits.live</uid>
+      <dtstart>20240418T093000</dtstart>
+      <dtend>20240418T095000</dtend>
+      <duration>00:20:00:00</duration>
+      <summary>Datalad-annex</summary>
+      <description>
+        Talk on datalad-annex, a git-remote helper to deposit a
+        repository in any place reachable by a git-annex special
+        remote implementation (Michael Hanke)
+      </description>
+      <location>Event Hall</location>
+      <attendee>Michael Hanke</attendee>
+    </vevent>
+
+    <vevent>
+      <uid>0004_distribits2023@distribits.live</uid>
+      <dtstart>20240418T095000</dtstart>
+      <dtend>20240418T101000</dtend>
+      <duration>00:20:00:00</duration>
+      <summary>Datalad ecosystem</summary>
+      <description>
+        Talk on DataLad "development ecosystem": overview/review of
+        the CIs, testing, building (git-annex), logs archival
+        (con/tinuous) to make ppl within/outside of project aware
+        (Yaroslav Halchenko)
+      </description>
+      <location>Event Hall</location>
+      <attendee>Yaroslav Halchenko</attendee>
+    </vevent>
+
+    <vevent>
+      <uid>0005_distribits2023@distribits.live</uid>
+      <dtstart>20240418T101000</dtstart>
+      <dtend>20240418T103000</dtend>
+      <duration>00:20:00:00</duration>
+      <summary>Git annex recipes</summary>
+      <description>
+        I have come up with many recipes over the years for scaling
+        git-annex repositories in terms of large numbers of keys,
+        large file sizes, and increased transfer efficiency.
+
+        I have working examples that I use internally that I can demonstrate.
+
+        (1) Second-order keys; using metadata to describe keys that
+        can be derived from other keys. I primarily used this to help
+        with the problem of too many keys referencing small
+        files. This is building off of the work of others, but I
+        believe I have made useful improvements, and I would like to
+        polish it up and share it.
+
+        One very early example is here:
+        https://github.com/unqueued/repo.macintoshgarden.org-fileset/
+        For now, I stripped out all but the location data from the
+        git-annex branch.  Files smaller than 50M are contained in
+        second-order keys (8b0b0af8-5e76-449c-b0ae-766fcac0bc58). The
+        other uuids are for standard backends, including a Google
+        Drive account which has very strict limits on requests, and it
+        would have been very difficult to process over 10k keys
+        directly.  There are also other cases where keys can be
+        reliably reproduced from other keys.
+
+        (2) Differential storage with git-annex using bup (or borg). I
+        built of off posts on the forums from years ago, and came up
+        with some really useful workflows for combining the benefits
+        of git-annex location tracking and branching with differential
+        compression. I have scripts used for automation, and some
+        example repos and case studies. For example, I have a repo
+        which contains file indexes that are over 60GiB, but only
+        consume about 6GiB, using bup packfiles. I can benefit from
+        differential compression over different time ranges, like per
+        year, or for the entire history, while minimizing storage
+        usage. I will publish a working example in the next few weeks,
+        but I have only used it internally for years.
+      </description>
+      <status>CONFIRMED</status>
+      <location>Event Hall</location>
+      <attendee>Timothy Sanders</attendee>
+    </vevent>
+
+    <vevent>
+      <uid>0006_distribits2023@distribits.live</uid>
+      <dtstart>20240418T103000</dtstart>
+      <dtend>20240418T105000</dtend>
+      <duration>00:20:00:00</duration>
+      <summary>"git annex is complete, right?"</summary>
+      <description>
+        My father has asked me this question before over the years. So
+        has an experienced developer recently. Seeing the same
+        question from two such different perspectives got me asking it
+        of myself.
+
+        While a new data storage system can always be added to
+        git-annex, or a new command be added to improve some use case,
+        both of those can also be accomplished without needing changes
+        to git-annex, by external remotes and more targeted frontends
+        such as Datalad.
+
+        So what then is the potential surface area of problem space
+        that git-annex may expand to cover? Do diminishing returns and
+        complexity make such expansions a good idea? I will explore
+        this by considering recent developments in git-annex, and the
+        impact of lesser-used features.
+      </description>
+      <location>Event Hall</location>
+      <attendee>Joey Hess</attendee>
+    </vevent>
+
+    <vevent>
+      <uid>0007_distribits2023@distribits.live</uid>
+      <dtstart>20240418T105000</dtstart>
+      <dtend>20240418T111000</dtend>
+      <duration>00:20:00:00</duration>
+      <summary>OpenNeuro and DataLad</summary>
+      <description>
+        A history of OpenNeuro's adoption of DataLad and the evolution
+        of DataLad and git-annex support on the platform. In 2017
+        OpenNeuro was preparing to launch with the original data
+        backend implemented as block storage without git-annex. The
+        decision was made to move OpenNeuro to DataLad and a quick
+        prototype for this backend service was created and eventually
+        brought to production for the public release of OpenNeuro.
+
+        Since 2017 the platform has evolved to support many of the
+        unique advantages of DataLad datasets. This talk discusses the
+        architecture of OpenNeuro, some of the challenges encountered
+        using git-annex as the center of our application’s data model
+        in cloud environments, solutions developed, and future work to
+        improve upon OpenNeuro’s archival and distribution of DataLad
+        datasets.
+      </description>
+      <location>Event Hall</location>
+      <attendee>Nell Hardcastle</attendee>
+    </vevent>
+
+  </vcalendar>
+</icalendar>
