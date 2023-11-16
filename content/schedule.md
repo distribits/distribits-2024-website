@@ -12,13 +12,20 @@ weight: 4
 
 **Late Registration opens, with hackathon waiting list: November 6th**
 
-### Preliminary schedule:
+### Time and date:
 
 - Conference
   - Thursday, 18 April 2024, 9--18
   - Friday, 19 April 2024, 9--18
 - Hackathon
   - Saturday, 20 April 2024, 9--18
+
+### Raw schedule data
+
+You can access the (preliminary) raw schedule data as Pentabarf [XML](/sched/distribits2024.xml).
+
+For viewing the schedule on mobile, we recommend the Giggity app ([F-Droid](https://f-droid.org/packages/net.gaast.giggity/), [Google Play](https://play.google.com/store/apps/details?id=net.gaast.giggity)) -- enter the link to the schedule file inside the app.
+
 
 ### Confirmed talks:
 
