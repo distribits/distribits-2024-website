@@ -1,6 +1,6 @@
 # Distribits meeting website sources
 
-- The website is built with [hugo](https://gohugo.io/) and uses [a fork](https://github.com/distribits/hugo-PaperMod) of the [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/) theme.
+- The website is built with [hugo](https://gohugo.io/) and uses the [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/) theme.
 - Theme is attached as a submodule (supports dark & light mode)
 - Content is written in Markdown and placed in `content/`
   - One file corresponds to one page;
