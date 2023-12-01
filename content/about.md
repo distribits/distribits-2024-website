@@ -5,7 +5,7 @@ weight: 1
 ---
 
 ## Distribits: technologies for distributed data management
-April 18th - April 20th, 2024 at “Haus der Universität”, Düsseldorf, Germany
+April 4th - April 6th, 2024 at “Haus der Universität”, Düsseldorf, Germany
 ![Distribits 2024](/pics/distribits_logo_a.svg)
 
 ---
