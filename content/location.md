@@ -6,23 +6,46 @@ weight: 3
 
 ## Venue
 
-Haus der Universität Düsseldorf  
-Schadowplatz 14  
-40212 Düsseldorf
+The event will take place at [Haus der Universität](https://www.hdu.hhu.de/en) in Düsseldorf, Germany.
 
-- Located in downtown Düsseldorf ([OpenStreetMap](https://www.openstreetmap.org/?mlat=51.2262&mlon=6.7812#map=12/51.2262/6.7812))
-- Auditorium
-- Two mergeable seminar rooms (hackathon venue)
-- University network (eduroam)
+- Location
+
+
+{{< rawhtml >}}
+<div style="margin-left:20px;margin-top:0px">
+<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" style="margin-bottom:1em">
+ <span itemprop="streetAddress">
+  Haus der Universität Düsseldorf<br />
+  Schadowplatz 14<br />
+ </span>
+ <span itemprop="postalCode">40212</span>
+ <span itemprop="addressLocality">Düsseldorf</span>
+</div>
+<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=6.779927015304566%2C51.2255592796282%2C6.782003045082093%2C51.227168451741605&amp;layer=mapnik&amp;marker=51.226363872717805%2C6.780965030193329" style="border: 1px solid black"></iframe>
+<p>
+<small><a href="https://www.openstreetmap.org/?mlat=51.22636&amp;mlon=6.78097#map=19/51.22636/6.78097">View Larger Map</a></small>
+</p>
+<p>All conference rooms at the venue are <a href="https://www.hdu.hhu.de/en/directions-contact-details">wheelchair accessible</a>.</p>
+</div>
+{{< /rawhtml >}}
+
 
 ## Transport
 
+The venue is well connected to public transport
+
+- close to Düsseldorf's central train station: 16 min walk, or three subway stops (U75/76/78/79) to Heinrich-Heine-Alle (and then a 4min walk)
 - 25 min by public transport from the airport (DUS)
-- 16 min walk from the train station
 - See [directions](https://www.hdu.hhu.de/en/directions-contact-details) at the venue website
 
 ## Accommodation
 
-You will find a large amount of very affordable accommodations within a  1-2km range of the location.
-We took care that the conference does not coincide with large events or fairs.
-Watch this space for recommendations of close-by hotels and hostels.
+You will find a large variety of accommodations options within a 1-2km range of the location.
+Here are a few picks:
+
+- [Hotel Favor](https://www.hotel-favor.de): 4-star hotel immediately opposite the venue, pricey, but the minibar is included
+- [Altstadt Hotel Barcelona](https://www.altstadthotelbarcelona.de): built-in irish pub, 7min walk
+- [Ruby Coco Hotel & Bar](https://www.ruby-hotels.com/hotels-destinations/duesseldorf/ruby-coco): stylish, 8min walk
+- [Max Brown Midtown Hotel](https://maxbrownhotels.com/de/midtown-dusseldorf): charming with smaller rooms, each one is unique, 8min walk
+- [Me and all Hotel](https://www.hyatt.com/en-US/hotel/germany/me-and-all-hotel-dusseldorf/dusjm): on the swanky side, has a rooftop cocktail bar with a great view, 9min walk
+- [Youth Hostel Düsseldorf](https://www.jugendherberge.de/jugendherbergen/duesseldorf): located next to the Rhine, affordable, distance from venue is a 35min walk or a 17min trip via the subway
