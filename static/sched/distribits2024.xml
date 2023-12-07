@@ -5,12 +5,12 @@
     <subtitle>Technologies for distributed data management</subtitle>
     <venue>Haus der Universität</venue>
     <city>Düsseldorf</city>
-    <start>2024-04-18</start>
-    <end>2024-04-20</end>
+    <start>2024-04-04</start>
+    <end>2024-04-06</end>
     <time_zone_name>Europe/Berlin</time_zone_name>
   </conference>
 
-  <day index="1" date="2024-04-18">
+  <day index="1" date="2024-04-04">
     <room guid="7f2a480b-3baf-4794-a86a-d9ddabbfc261" name="Foyer">
 
       <event guid="eea2ea76-d773-4b47-b155-81206ec8b9cb">
@@ -320,7 +320,7 @@
     </room>
   </day>
 
-  <day index="2" date="2024-04-19">
+  <day index="2" date="2024-04-05">
     <room guid="7f2a480b-3baf-4794-a86a-d9ddabbfc261" name="Foyer">
 
       <event guid="21380a3f-758a-4d64-88f3-c2fa6ea5eb2a">
@@ -706,7 +706,7 @@
     </room>
   </day>
 
-  <day index="3" date="2024-04-20">
+  <day index="3" date="2024-04-06">
     <room guid="" name="Seminar room">
 
       <event guid="a15745bd-fa3b-4b84-afb1-ff3854b7bd09">
