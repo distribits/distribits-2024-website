@@ -25,10 +25,17 @@ The event will take place at [Haus der Universität](https://www.hdu.hhu.de/en) 
 <p>
 <small><a href="https://www.openstreetmap.org/?mlat=51.22636&amp;mlon=6.78097#map=19/51.22636/6.78097">View Larger Map</a></small>
 </p>
-<p>All conference rooms at the venue are <a href="https://www.hdu.hhu.de/en/directions-contact-details">wheelchair accessible</a>.</p>
 </div>
 {{< /rawhtml >}}
 
+### Accessibility
+
+The venue is in-principle equipped with handicapped accessible facilities.
+The main entrance stair lift, however, is currently broken.
+Please refer to the [official website](https://www.hdu.hhu.de/en) for updates.
+If you require a stair lift, please contact distribits-org@fz-juelich.de.
+
+A separate room is available for nursing or prayer.
 
 ## Transport
 
