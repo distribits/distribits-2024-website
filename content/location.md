@@ -34,7 +34,7 @@ The event will take place at [Haus der Universität](https://www.hdu.hhu.de/en) 
 
 The venue is well-connected to public transport
 
-- close to Düsseldorf's central train station: 16 min walk, or three subway stops (U75/76/78/79) to Heinrich-Heine-Alle (and then a 4min walk)
+- close to Düsseldorf's central train station: 16 min walk, or three subway stops (U75/76/78/79) to Heinrich-Heine-Allee (and then a 4min walk) or Schadowstraße (and then a 4min walk)
 - 25 min by public transport from the airport (DUS)
 - See [directions](https://www.hdu.hhu.de/en/directions-contact-details) at the venue website
 
