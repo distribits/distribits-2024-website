@@ -28,8 +28,8 @@
       </event>
 
       <event guid="62825836-11da-4f09-bdc3-854d05c78828">
-        <start>15:25</start>
-        <duration>00:20</duration>
+        <start>15:00</start>
+        <duration>00:30</duration>
         <title>Coffee</title>
         <description>Coffee time</description>
       </event>
@@ -233,7 +233,7 @@
 
       <event guid="d5c1b6fb-4d0b-477e-a9ce-63236cb6d0a2">
         <start>14:30</start>
-        <duration>00:50</duration>
+        <duration>00:30</duration>
         <title>Questions and panel discussion</title>
         <abstract>
           Questions and panel discussion
@@ -241,7 +241,7 @@
       </event>
 
       <event guid="862bbe87-a61b-4dd3-9ef2-fef682383aef">
-        <start>15:45</start>
+        <start>15:30</start>
         <duration>00:20</duration>
         <title>Workflow provenance–based scheduling</title>
         <abstract>
@@ -278,8 +278,8 @@
       </event>
 
       <event guid="b8e17fd7-e4e9-4d50-8aa0-4df685866d0d">
-        <start>16:05</start>
-        <duration>00:20</duration>
+        <start>15:50</start>
+        <duration>00:10</duration>
         <title>Optimisation in Network Engineering: Challenges and Solutions in Research Data Management</title>
         <abstract>
           In the complex realm of network engineering design,
@@ -309,9 +309,42 @@
         </persons>
       </event>
 
+      <event guid="b2ea30d2-aa61-4c74-ac69-8f890cdfa67c">
+        <start>16:00</start>
+        <duration>00:10</duration>
+        <title>fMRI Pipelines on HPC with DataLad and ReproMan</title>
+        <abstract>
+          In this lightning talk, I will share my experience using
+          DataLad, git-annex and ReproMan to run software pipelines on
+          hundreds of fMRI datasets on an HPC cluster. Potential
+          topics may include: (a) The use of ReproMan to avoid the
+          difficulties of using datalad containers-run in parallel on
+          an HPC.  (b) How to use DataLad on a scratch filesystem that
+          periodically purges files to save space.  (c) A simple
+          algorithm I implemented in ReproMan to prevent excess
+          runtime due to outliers in parallel jobs.  (d) The pros and
+          cons of the YODA-BIDS layout for neuroimaging data.  I hope
+          my talk will prompt discussion with those hoping to learn
+          more from my experience as well as those who have found
+          alternative solutions to similar challenges.
+        </abstract>
+        <persons>
+          <person>Joe Wechsler</person>
+        </persons>
+      </event>
+
+      <event guid="72e1aa3f-f94e-41de-b23e-9bb1da3c2122">
+        <start>16:10</start>
+        <duration>00:10</duration>
+        <title>Reproducibility vs. computational efficiency on HPC systems</title>
+        <persons>
+          <person>Felix Hoffstaedter</person>
+        </persons>
+      </event>
+
       <event guid="309a849f-5802-444b-9712-4e8c6614ee61">
-        <start>16:25</start>
-        <duration>00:35</duration>
+        <start>16:20</start>
+        <duration>00:40</duration>
         <title>Questions and panel discussion</title>
         <abstract>
           Questions and panel discussion
@@ -370,32 +403,8 @@
         </abstract>
       </event>
 
-      <event guid="b2ea30d2-aa61-4c74-ac69-8f890cdfa67c">
-        <start>09:15</start>
-        <duration>00:20</duration>
-        <title>fMRI Pipelines on HPC with DataLad and ReproMan</title>
-        <abstract>
-          In this lightning talk, I will share my experience using
-          DataLad, git-annex and ReproMan to run software pipelines on
-          hundreds of fMRI datasets on an HPC cluster. Potential
-          topics may include: (a) The use of ReproMan to avoid the
-          difficulties of using datalad containers-run in parallel on
-          an HPC.  (b) How to use DataLad on a scratch filesystem that
-          periodically purges files to save space.  (c) A simple
-          algorithm I implemented in ReproMan to prevent excess
-          runtime due to outliers in parallel jobs.  (d) The pros and
-          cons of the YODA-BIDS layout for neuroimaging data.  I hope
-          my talk will prompt discussion with those hoping to learn
-          more from my experience as well as those who have found
-          alternative solutions to similar challenges.
-        </abstract>
-        <persons>
-          <person>Joe Wechsler</person>
-        </persons>
-      </event>
-
       <event guid="3c0d2631-55ae-4b46-a549-1803b516c406">
-        <start>09:35</start>
+        <start>09:15</start>
         <duration>00:20</duration>
         <title>Neuroscientific data management using DataLad</title>
         <abstract>
@@ -419,17 +428,8 @@
         </persons>
       </event>
 
-    <event guid="b2b0097c-afed-4373-a124-69240ab2ccf7">
-      <start>09:55</start>
-      <duration>00:20</duration>
-      <title>Questions and panel discussion</title>
-      <abstract>
-        Questions and panel discussion
-      </abstract>
-    </event>
-
     <event guid="1ee16c1f-da1b-4035-a71d-6ad4fb2cfc58">
-      <start>10:15</start>
+      <start>09:35</start>
       <duration>00:20</duration>
       <title>Staying in Control of your Scientific Data with Git Annex</title>
       <abstract>
@@ -447,8 +447,17 @@
       </persons>
     </event>
 
+    <event guid="b2b0097c-afed-4373-a124-69240ab2ccf7">
+      <start>09:55</start>
+      <duration>00:20</duration>
+      <title>Questions and panel discussion</title>
+      <abstract>
+        Questions and panel discussion
+      </abstract>
+    </event>
+
     <event guid="3bfa442d-5c64-48bd-924a-7657f9c0ab8a">
-      <start>10:35</start>
+      <start>10:15</start>
       <duration>00:20</duration>
       <title>Fusion of Multiple Open Source Applications for Data Management Workflows in Psychology and Neuroscience</title>
       <abstract>
@@ -503,7 +512,7 @@
     </event>
 
     <event guid="7ba85db5-acd0-49ed-8981-e01556937cad">
-      <start>10:55</start>
+      <start>10:35</start>
       <duration>00:20</duration>
       <title>Balancing Efficiency and Standardization for a Microscopic Image Repository on an HPC System</title>
       <abstract>
@@ -599,6 +608,19 @@
       </persons>
     </event>
 
+    <event guid="53309795-003f-4a13-8c61-dcb42c13c1ba">
+      <start>10:55</start>
+      <duration>00:20</duration>
+      <title>DataLad-Registry: A Registry of DataLad Datasets with Metadata</title>
+      <abstract>
+        Talk on datalad-registry - a registry of datalad datasets with
+        metadata extracted.
+      </abstract>
+      <persons>
+        <person>Isaac To</person>
+      </persons>
+    </event>
+
     <event guid="75f3bdf7-674e-448d-a08a-1eb878d144fc">
       <start>11:15</start>
       <duration>00:45</duration>
@@ -648,17 +670,10 @@
       </persons>
     </event>
 
-    <event guid="53309795-003f-4a13-8c61-dcb42c13c1ba">
+    <event guid="8fadd0c8-90fa-43ba-976b-3e195ac07d93">
       <start>14:10</start>
       <duration>00:20</duration>
-      <title>DataLad-Registry: A Registry of DataLad Datasets with Metadata</title>
-      <abstract>
-        Talk on datalad-registry - a registry of datalad datasets with
-        metadata extracted.
-      </abstract>
-      <persons>
-        <person>Isaac To</person>
-      </persons>
+      <title>TBA</title>
     </event>
 
     <event guid="f465a39d-4ed4-4609-80e0-8373e2c28739">
