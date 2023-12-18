@@ -63,3 +63,10 @@ Here are a few picks:
 
 Small hotels in the inner city center are often booked out on the weekends long in advance because of the lively nature of weekend nights in Düsseldorf, especially during soccer games.
 Make sure to book early if you want to experience ["the longest bar in the world"](https://en.wikipedia.org/wiki/Altstadt_(D%C3%BCsseldorf)) up close.
+
+## Tips for international participants
+
+* In Germany, the power plug sockets are of [type F](https://en.wikipedia.org/wiki/Schuko). The standard voltage is 230 V and the frequency is 50 Hz.
+Remember to bring a plug adaptor, if necessary.
+* Germany uses Euro as currency. While payment with Credit or Debit card should pose no issue in most venues, [Germans are known to be highly fond of paying with cash](https://www.dw.com/en/times-change-but-german-obsession-with-cash-endures/a-43718626). Some shops may only take cash, or allow plastic payment only from a certain amount of money upwards. ATMs can be found at every corner, however.
+* If you prolong your stay in Germany, be aware that almost all shops are closed on Sundays (e.g., grocery stores or shopping malls).
