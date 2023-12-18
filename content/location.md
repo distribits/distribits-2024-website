@@ -38,6 +38,9 @@ The venue is well-connected to public transport
 - 25 min by public transport from the airport (DUS)
 - See [directions](https://www.hdu.hhu.de/en/directions-contact-details) at the venue website
 
+Travel by car is inconvenient, with little and only expensive parking space (~20€+ per day) available in Düsseldorf.
+You will likely travel faster and more hassle-free with public transport.
+
 ## Accommodation
 
 You will find a large variety of accommodations options within a 1-2km range of the location.
