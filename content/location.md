@@ -25,18 +25,28 @@ The event will take place at [Haus der Universität](https://www.hdu.hhu.de/en) 
 <p>
 <small><a href="https://www.openstreetmap.org/?mlat=51.22636&amp;mlon=6.78097#map=19/51.22636/6.78097">View Larger Map</a></small>
 </p>
-<p>All conference rooms at the venue are <a href="https://www.hdu.hhu.de/en/directions-contact-details">wheelchair accessible</a>.</p>
 </div>
 {{< /rawhtml >}}
 
+### Accessibility
+
+The venue is in-principle equipped with handicapped accessible facilities.
+The main entrance stair lift, however, is currently broken.
+Please refer to the [official website](https://www.hdu.hhu.de/en) for updates.
+If you require a stair lift, please contact distribits-org@fz-juelich.de.
+
+A separate room is available for nursing or prayer.
 
 ## Transport
 
-The venue is well connected to public transport
+The venue is well-connected to public transport
 
-- close to Düsseldorf's central train station: 16 min walk, or three subway stops (U75/76/78/79) to Heinrich-Heine-Alle (and then a 4min walk)
+- close to Düsseldorf's central train station: 16 min walk, or three subway stops (U75/76/78/79) to Heinrich-Heine-Allee (and then a 4min walk) or Schadowstraße (and then a 4min walk)
 - 25 min by public transport from the airport (DUS)
 - See [directions](https://www.hdu.hhu.de/en/directions-contact-details) at the venue website
+
+Travel by car is inconvenient, with little and only expensive parking space (~20€+ per day) available in Düsseldorf.
+You will likely travel faster and more hassle-free with public transport.
 
 ## Accommodation
 
@@ -49,3 +59,14 @@ Here are a few picks:
 - [Max Brown Midtown Hotel](https://maxbrownhotels.com/de/midtown-dusseldorf): charming with smaller rooms, each one is unique, 8min walk
 - [Me and all Hotel](https://www.hyatt.com/en-US/hotel/germany/me-and-all-hotel-dusseldorf/dusjm): on the swanky side, has a rooftop cocktail bar with a great view, 9min walk
 - [Youth Hostel Düsseldorf](https://www.jugendherberge.de/jugendherbergen/duesseldorf): located next to the Rhine, affordable, distance from venue is a 35min walk or a 17min trip via the subway
+
+
+Small hotels in the inner city center are often booked out on the weekends long in advance because of the lively nature of weekend nights in Düsseldorf, especially during soccer games.
+Make sure to book early if you want to experience ["the longest bar in the world"](https://en.wikipedia.org/wiki/Altstadt_(D%C3%BCsseldorf)) up close.
+
+## Tips for international participants
+
+* In Germany, the power plug sockets are of [type F](https://en.wikipedia.org/wiki/Schuko). The standard voltage is 230 V and the frequency is 50 Hz.
+Remember to bring a plug adaptor, if necessary.
+* Germany uses Euro as currency. While payment with Credit or Debit card should pose no issue in most venues, [Germans are known to be highly fond of paying with cash](https://www.dw.com/en/times-change-but-german-obsession-with-cash-endures/a-43718626). Some shops may only take cash, or allow plastic payment only from a certain amount of money upwards. ATMs can be found at every corner, however.
+* If you prolong your stay in Germany, be aware that almost all shops are closed on Sundays (e.g., grocery stores or shopping malls).
