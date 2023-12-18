@@ -52,3 +52,7 @@ Here are a few picks:
 - [Max Brown Midtown Hotel](https://maxbrownhotels.com/de/midtown-dusseldorf): charming with smaller rooms, each one is unique, 8min walk
 - [Me and all Hotel](https://www.hyatt.com/en-US/hotel/germany/me-and-all-hotel-dusseldorf/dusjm): on the swanky side, has a rooftop cocktail bar with a great view, 9min walk
 - [Youth Hostel Düsseldorf](https://www.jugendherberge.de/jugendherbergen/duesseldorf): located next to the Rhine, affordable, distance from venue is a 35min walk or a 17min trip via the subway
+
+
+Small hotels in the inner city center are often booked out on the weekends long in advance because of the lively nature of weekend nights in Düsseldorf, especially during soccer games.
+Make sure to book early if you want to experience ["the longest bar in the world"](https://en.wikipedia.org/wiki/Altstadt_(D%C3%BCsseldorf)) up close.
