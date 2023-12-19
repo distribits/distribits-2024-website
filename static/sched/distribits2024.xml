@@ -722,7 +722,7 @@
   </day>
 
   <day index="3" date="2024-04-06">
-    <room guid="" name="Seminar room 1, 3rd floor">
+    <room guid="df1b1641-4574-4317-8ae5-d43d2292a81c" name="Seminar room 1, 3rd floor">
       <event guid="a15745bd-fa3b-4b84-afb1-ff3854b7bd09">
         <start>08:30</start>
         <duration>00:30</duration>
