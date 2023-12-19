@@ -1,0 +1,41 @@
+{{/* load schedule file from global resources in assets */}}
+{{ $data := "" }}
+{{ $path := "xml/schedule.xml" }}
+{{ with resources.Get $path }}
+  {{ with unmarshal . }}
+    {{ $data = . }}
+  {{ end }}
+{{ else }}
+  {{ errorf "Unable to get global resource %q" $path }}
+{{ end }}
+
+{{/* display each day's events */}}
+{{ range $data.day }}
+  {{/* for each day -- assumes day is a slice (array) */}}
+
+  <h2>{{ index . "-date"  }}</h2>  {{/* index to access property starting with - */}}
+
+  {{ range (compare.Conditional (reflect.IsSlice .room) .room (slice .room)) }}
+    {{/* for each room, ensuring room is a slice (array) */}}
+
+    <h3>{{ index . "-name" }}</h3>
+
+    {{ range (compare.Conditional (reflect.IsSlice .event) .event (slice .event)) }}
+      {{/* for each event, ensuring event is a slice (array) */}}
+
+      <h4>{{ .title }}</h4>
+      <p>
+        {{ .start }} ({{ .duration }})
+        {{ if reflect.IsSlice .persons.person }}
+          {{ delimit .persons.person ", " }}
+        {{ else }}
+          {{ .persons.person  }}
+        {{ end }}
+      </p>
+      {{ with .abstract }}
+        <p>{{ . }}</p>
+      {{ end }}
+
+    {{ end }}
+  {{ end }}
+{{ end }}
