@@ -648,7 +648,7 @@
         software stack will provide an audit trail across the project
         that is verifyable even by external scientists without access
         to the raw data, while keeping the option for future
-        reproducability studies and replicability studies open. This
+        reproducibility studies and replicability studies open. This
         is achieved by utilizing git-annex and datalad in a novel way
         to provide partial data blinding.
         Because collecting study-relevant data is often a time- and
