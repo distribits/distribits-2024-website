@@ -633,7 +633,7 @@
     <event guid="4fc2a76d-13be-41fc-bc09-cfcb170ad4ab">
       <start>13:50</start>
       <duration>00:20</duration>
-      <title>Reproducable and replicable data science in the presence of patient confidentiality concerns by utilizing git-annex and the Data Science Orchestrator</title>
+      <title>Reproducible and replicable data science in the presence of patient confidentiality concerns by utilizing git-annex and the Data Science Orchestrator</title>
       <abstract>
         Health-related data for patients is among the most sensitive
         data when it comes to data privacy concerns. Data science
