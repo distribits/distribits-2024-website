@@ -1,0 +1,53 @@
+{{/* load schedule file from global resources in assets */}}
+{{ $data := "" }}
+{{ $path := "xml/schedule.xml" }}
+{{ with resources.Get $path }}
+  {{ with unmarshal . }}
+    {{ $data = . }}
+  {{ end }}
+{{ else }}
+  {{ errorf "Unable to get global resource %q" $path }}
+{{ end }}
+
+{{/* display each day's events */}}
+{{ range $data.day }}
+  {{/* for each day -- assumes day is a slice (array) */}}
+
+  {{ $date := (index . "-date") }}
+  {{ $dayEvents := slice }}
+
+  <h2>{{ index . "-date"  }}</h2>
+
+  {{ range (compare.Conditional (reflect.IsSlice .room) .room (slice .room)) }}
+    {{/* for each room, ensuring room is a slice (array) */}}
+
+    {{ $roomname := (index . "-name") }}
+
+    {{ range $event := (compare.Conditional (reflect.IsSlice .event) .event (slice .event)) }}
+      {{/* for each event, ensuring event is a slice (array) */}}
+      {{/* add date & room to event, append to dayEvents */}}
+      {{ $event = $event | merge (dict "date" $date "room" $roomname) }}
+      {{ $dayEvents = $dayEvents | append $event }}
+    {{ end }}
+  {{ end }}
+
+  {{ range sort $dayEvents "start" }}
+    {{/* display all day's events ordered by start time */}}
+    <h3>{{ .title }}</h3>
+    <p>
+      {{ .start }} ({{ .duration }}) {{ .room }}
+    </p>
+    <p>
+      {{ if reflect.IsSlice .persons.person }}
+        {{ delimit .persons.person ", " }}
+      {{ else }}
+        {{ .persons.person  }}
+      {{ end }}
+    </p>
+    {{ with .abstract }}
+      <p>{{ . }}</p>
+    {{ end }}
+
+  {{ end }}
+  <hr>
+{{ end }}
