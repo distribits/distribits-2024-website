@@ -632,7 +632,7 @@
 
     <event guid="4fc2a76d-13be-41fc-bc09-cfcb170ad4ab">
       <start>13:50</start>
-      <duration>00:20</duration>
+      <duration>00:40</duration>
       <title>Reproducible and replicable data science in the presence of patient confidentiality concerns by utilizing git-annex and the Data Science Orchestrator</title>
       <abstract>
         Health-related data for patients is among the most sensitive
@@ -668,12 +668,6 @@
         <person>Markus Katharina Brechtel</person>
         <person>Philipp Kaluza</person>
       </persons>
-    </event>
-
-    <event guid="8fadd0c8-90fa-43ba-976b-3e195ac07d93">
-      <start>14:10</start>
-      <duration>00:20</duration>
-      <title>TBA</title>
     </event>
 
     <event guid="f465a39d-4ed4-4609-80e0-8373e2c28739">
