@@ -373,7 +373,7 @@
       </event>
 
       <event guid="786aa8b8-ffe9-4e00-8ec5-80ffa1a33ea3">
-        <start>14:45</start>
+        <start>15:30</start>
         <duration>00:30</duration>
         <title>Coffee</title>
         <abstract>
@@ -672,15 +672,15 @@
 
     <event guid="f465a39d-4ed4-4609-80e0-8373e2c28739">
       <start>14:30</start>
-      <duration>00:15</duration>
-      <title>Questions and panel discussion</title>
+      <duration>00:20</duration>
+      <title>TBA</title>
       <abstract>
-        Questions and panel discussion
+        TBA
       </abstract>
     </event>
 
     <event guid="44622511-c5c2-4ca8-9978-fa1a153b8f80">
-      <start>15:15</start>
+      <start>14:50</start>
       <duration>00:20</duration>
       <title>TBA</title>
       <abstract>
@@ -692,11 +692,11 @@
     </event>
 
     <event guid="a81918df-a057-48b1-b016-ce31f59b02a3">
-      <start>15:35</start>
+      <start>15:10</start>
       <duration>00:20</duration>
-      <title>TBA</title>
+      <title>Questions and panel discussion</title>
       <abstract>
-        TBA
+        Questions and panel discussion
       </abstract>
     </event>
 
