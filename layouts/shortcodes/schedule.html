@@ -16,7 +16,7 @@
   {{ $date := (index . "-date") }}
   {{ $dayEvents := slice }}
 
-  <h2>{{ index . "-date"  }}</h2>
+  <h2 id='{{ index . "-date"  }}' >{{ index . "-date"  }}</h2>
 
   {{ range (compare.Conditional (reflect.IsSlice .room) .room (slice .room)) }}
     {{/* for each room, ensuring room is a slice (array) */}}

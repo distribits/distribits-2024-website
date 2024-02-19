@@ -13,10 +13,10 @@ weight: 4
 
 ## At a glance
 - Conference
-  - Thursday, 4 April 2024, 9--17
-  - Friday, 5 April 2024, 9--17
+  - [Thursday, 4 April 2024, 9--17](#2024-04-04)
+  - [Friday, 5 April 2024, 9--17](#2024-04-05)
 - Hackathon
-  - Saturday, 6 April 2024, 9--17
+  - [Saturday, 6 April 2024, 9--17](#2024-04-06)
 
 ## Event schedule (preliminary)
 
