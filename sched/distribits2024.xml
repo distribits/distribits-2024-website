@@ -49,7 +49,7 @@
         <start>09:00</start>
         <duration>00:30</duration>
         <title>Welcome and overview</title>
-        <abstract>Welcome</abstract>
+        <abstract>Welcome from the organizers</abstract>
       </event>
 
       <event guid="58439357-716a-443c-9659-2e941e2fa921">
@@ -673,10 +673,17 @@
     <event guid="f465a39d-4ed4-4609-80e0-8373e2c28739">
       <start>14:30</start>
       <duration>00:20</duration>
-      <title>TBA</title>
+      <title>A Tour of Magit</title>
       <abstract>
-        TBA
+        Magit is an Emacs interface to Git.  Through it, you can drive Git
+        operations, even advanced ones, by typing short key sequences.  This
+        talk will show Magit in action.  I will give a general overview and
+        then highlight features for preparing and refining a series of
+        commits.
       </abstract>
+      <persons>
+        <person>Kyle Meyer</person>
+      </persons>
     </event>
 
     <event guid="44622511-c5c2-4ca8-9978-fa1a153b8f80">
