@@ -23,8 +23,8 @@
       <event guid="204e5eba-5c2b-4535-8049-7920e8b06969">
         <start>12:00</start>
         <duration>01:30</duration>
-        <title>Lunch (outside venue)</title>
-        <description>Lunch time (outside venue)</description>
+        <title>Lunch (self-organized, outside venue)</title>
+        <description>Lunch time (self-organized, outside venue)</description>
       </event>
 
       <event guid="62825836-11da-4f09-bdc3-854d05c78828">
@@ -37,8 +37,8 @@
       <event guid="45031b96-64f3-444e-a9e7-9e114226e019">
         <start>17:00</start>
         <duration>03:00</duration>
-        <title>Dinner and social (outside venue)</title>
-        <description>Dinner and social time (outside venue)</description>
+        <title>Dinner and social (self-organized, outside venue)</title>
+        <description>Dinner and social time (self-organized, outside venue)</description>
       </event>
 
     </room>
@@ -368,8 +368,8 @@
       <event guid="d815e458-5b41-4f68-b70c-b33b800de40f">
         <start>12:00</start>
         <duration>01:30</duration>
-        <title>Lunch (outside venue)</title>
-        <description>Lunch time (outside venue)</description>
+        <title>Lunch (self-organized, outside venue)</title>
+        <description>Lunch time (self-organized, outside venue)</description>
       </event>
 
       <event guid="786aa8b8-ffe9-4e00-8ec5-80ffa1a33ea3">
@@ -384,9 +384,9 @@
       <event guid="fee8cb07-1c0b-4164-b40b-b1d6668bd1e1">
         <start>17:00</start>
         <duration>01:00</duration>
-        <title>Dinner and social (outside venue)</title>
+        <title>Dinner and social (self-organized, outside venue)</title>
         <abstract>
-          Dinner and social time (outside venue)
+          Dinner and social time (self-organized, outside venue)
         </abstract>
       </event>
 
@@ -752,7 +752,7 @@
       <event guid="632c2aca-bcc9-4b6b-8f9a-619bcf1aa79c">
         <start>12:00</start>
         <duration>01:30</duration>
-        <title>Lunch (outside venue)</title>
+        <title>Lunch (self-organized, outside venue)</title>
         <abstract>
         </abstract>
       </event>
@@ -793,9 +793,9 @@
       <event guid="10e182e5-9fb8-4f2c-998e-4d583f8c07d9">
         <start>17:00</start>
         <duration>02:00</duration>
-        <title>Dinner and social (outside venue)</title>
+        <title>Dinner and social (self-organized, outside venue)</title>
         <abstract>
-          Dinner and social time (outside venue)
+          Dinner and social time (self-organized, outside venue)
         </abstract>
       </event>
 
