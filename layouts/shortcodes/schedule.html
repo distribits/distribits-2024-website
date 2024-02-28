@@ -45,7 +45,10 @@
       {{ end }}
     </p>
     {{ with .abstract }}
-      <p>{{ . }}</p>
+      <details>
+        <summary>Abstract</summary>
+        <p>{{ . }}</p>
+      </details>
     {{ end }}
 
   {{ end }}
