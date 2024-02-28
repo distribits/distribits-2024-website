@@ -360,9 +360,9 @@
         <start>08:30</start>
         <duration>00:30</duration>
         <title>Coffee</title>
-        <abstract>
+        <description>
           Coffee time!
-        </abstract>
+        </description>
       </event>
 
       <event guid="d815e458-5b41-4f68-b70c-b33b800de40f">
@@ -376,18 +376,18 @@
         <start>15:30</start>
         <duration>00:30</duration>
         <title>Coffee</title>
-        <abstract>
+        <description>
           Coffee time!
-        </abstract>
+        </description>
       </event>
 
       <event guid="fee8cb07-1c0b-4164-b40b-b1d6668bd1e1">
         <start>17:00</start>
         <duration>01:00</duration>
         <title>Dinner and social (self-organized, outside venue)</title>
-        <abstract>
+        <description>
           Dinner and social time (self-organized, outside venue)
-        </abstract>
+        </description>
       </event>
 
     </room>
@@ -728,9 +728,9 @@
         <start>08:30</start>
         <duration>00:30</duration>
         <title>Coffee</title>
-        <abstract>
+        <description>
           Coffee time!
-        </abstract>
+        </description>
       </event>
 
       <event guid="4ca40acb-9bf2-4bc0-b79a-01f7d3e2ad5e">
@@ -769,9 +769,9 @@
         <start>14:30</start>
         <duration>00:15</duration>
         <title>Coffee</title>
-        <abstract>
+        <description>
           Coffee time!
-        </abstract>
+        </description>
       </event>
 
       <event guid="f768b81f-3d50-4497-9d96-235c9609d8f4">
@@ -794,9 +794,9 @@
         <start>17:00</start>
         <duration>02:00</duration>
         <title>Dinner and social (self-organized, outside venue)</title>
-        <abstract>
+        <description>
           Dinner and social time (self-organized, outside venue)
-        </abstract>
+        </description>
       </event>
 
     </room>
