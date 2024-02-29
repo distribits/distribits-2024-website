@@ -136,11 +136,19 @@
       <event guid="bdb82e56-291a-429d-af67-1c60ce41d44d">
         <start>10:30</start>
         <duration>00:20</duration>
-        <title>Datalad-annex</title>
+        <title>DataLad beyond Git, connecting to the rest of the world</title>
         <abstract>
-          Talk on datalad-annex, a git-remote helper to deposit a
-          repository in any place reachable by a git-annex special
-          remote implementation.
+          DataLad has been built on Git and git-annex as foundational pillars.
+          However, the vast majority of data infrastructures are not Git-aware.
+          Git-annex can work with a much broader array of services,
+          but the need to "keep the Git repo somewhere" imposes undesirable
+          technical and procedural complexity on users.
+          In this talk I illustrate existing means to take Git-based DataLad
+          datasets to places that Git cannot reach on its own.
+          Moreover, I introduce ongoing work that aims to enable DataLad
+          users to consume non-DataLad resources as native DataLad datasets,
+          and non-DataLad users to consume DataLad resources without DataLad,
+          git-annex, or even Git.
         </abstract>
         <persons>
           <person>Michael Hanke</person>
