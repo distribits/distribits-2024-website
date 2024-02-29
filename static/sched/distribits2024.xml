@@ -373,7 +373,7 @@
       </event>
 
       <event guid="786aa8b8-ffe9-4e00-8ec5-80ffa1a33ea3">
-        <start>15:30</start>
+        <start>15:10</start>
         <duration>00:30</duration>
         <title>Coffee</title>
         <description>
@@ -689,9 +689,9 @@
     <event guid="44622511-c5c2-4ca8-9978-fa1a153b8f80">
       <start>14:50</start>
       <duration>00:20</duration>
-      <title>TBA</title>
+      <title>Questions and panel discussion</title>
       <abstract>
-        TBA
+        Questions and panel discussion
       </abstract>
       <persons>
         <person></person>
@@ -699,17 +699,17 @@
     </event>
 
     <event guid="a81918df-a057-48b1-b016-ce31f59b02a3">
-      <start>15:10</start>
-      <duration>00:20</duration>
-      <title>Questions and panel discussion</title>
+      <start>15:40</start>
+      <duration>00:40</duration>
+      <title>Dataverse mini-symposium</title>
       <abstract>
-        Questions and panel discussion
+        TBA
       </abstract>
     </event>
 
     <event guid="42070d09-8bc1-459f-a24a-decd1382e301">
-      <start>16:00</start>
-      <duration>01:00</duration>
+      <start>16:20</start>
+      <duration>00:40</duration>
       <title>Unconference</title>
       <abstract>
         Unconference slot
