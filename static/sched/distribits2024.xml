@@ -343,7 +343,7 @@
           data processing workflows. The Datalad based 'FAIRly big workflow'
           allows for a separation of the compute environment from the
           processing pipeline enabling automatic reproducibility over systems.
-          Yet, the shear size of RAM and CPUs on HPC systems will allow for
+          Yet, the sheer size of RAM and CPUs on HPC systems will allow for
           different ways to optimize compute jobs in contrast to compute
           clusters and certainly the average workstation/laptop. In this talk,
           I discuss general differences between HCP and more standard compute
