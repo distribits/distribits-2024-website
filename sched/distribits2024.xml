@@ -337,6 +337,20 @@
         <start>16:10</start>
         <duration>00:10</duration>
         <title>Reproducibility vs. computational efficiency on HPC systems</title>
+        <abstract>
+          HPC systems have particular hard- and software configurations that
+          introduce specific challenges for the implementation of reproducible
+          data processing workflows. The Datalad based 'FAIRly big workflow'
+          allows for a separation of the compute environment from the
+          processing pipeline enabling automatic reproducibility over systems.
+          Yet, the sheer size of RAM and CPUs on HPC systems will allow for
+          different ways to optimize compute jobs in contrast to compute
+          clusters and certainly the average workstation/laptop. In this talk,
+          I discuss general differences between HCP and more standard compute
+          environments regarding necessary choices for the setup of processing
+          pipelines to be reproducible. Among the main factors are the
+          availability of RAM, local storage, inodes and wall clock time.
+        </abstract>
         <persons>
           <person>Felix Hoffstaedter</person>
         </persons>
