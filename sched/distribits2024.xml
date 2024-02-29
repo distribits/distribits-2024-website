@@ -723,10 +723,22 @@
     <event guid="a81918df-a057-48b1-b016-ce31f59b02a3">
       <start>15:40</start>
       <duration>00:40</duration>
-      <title>Dataverse mini-symposium</title>
+      <title>Distributed Metadata and Data with Dataverse</title>
       <abstract>
-        TBA
+        Dataverse is open source research data repository software that has
+        supported distributed metadata for a long time and is increasingly
+        supporting distributed data. Learn about the Open Archives Initiative
+        Protocol for Metadata Harvesting (OAI-PMH) and file "stores" within
+        Dataverse that can be hosted locally, on S3, Globus, or remote
+        locations. We plan to demonstrate a proof of concept for a distributed
+        storage configuration in Jülich DATA and the use of Dataverse APIs to
+        manage data with Python.
       </abstract>
+      <persons>
+        <person>Philip Durbin</person>
+        <person>Jan Range</person>
+        <person>Oliver Bertuch</person>
+      </persons>
     </event>
 
     <event guid="42070d09-8bc1-459f-a24a-decd1382e301">
