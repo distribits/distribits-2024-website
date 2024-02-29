@@ -146,7 +146,7 @@
           In this talk I illustrate existing means to take Git-based DataLad
           datasets to places that Git cannot reach on its own.
           Moreover, I introduce ongoing work that aims to enable DataLad
-          users to consume non-DataLad resources as native DataLad dataset,
+          users to consume non-DataLad resources as native DataLad datasets,
           and non-DataLad users to consume DataLad resources without DataLad,
           git-annex, or even Git.
         </abstract>
