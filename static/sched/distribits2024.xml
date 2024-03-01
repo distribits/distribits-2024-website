@@ -635,8 +635,16 @@
       <duration>00:20</duration>
       <title>Datalad-Registry: Bringing Benefits of Centrality to Datalad</title>
       <abstract>
-        Talk on datalad-registry - a registry of datalad datasets with
-        metadata extracted.
+        Datalad-Registry is a service that maintains up-to-date information on tens of
+        thousands of datasets, with the collection expanding as more datasets are added.
+        This talk will explore how Datalad-Registry automatically registers datasets from
+        the internet, extracts metadata from them, and keeps these datasets and their
+        corresponding metadata up-to-date. We'll showcase the datasets and metadata
+        types currently available within Datalad-Registry and demonstrate the service's
+        search capability. Additionally, we'll provide an overview of the API and reveal
+        the underlying service components of Datalad-Registry. The presentation will
+        conclude with a discussion on ongoing and future developments, inviting audience
+        input to shape the future of Datalad-Registry.
       </abstract>
       <persons>
         <person>Isaac To</person>
