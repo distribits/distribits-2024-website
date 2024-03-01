@@ -633,7 +633,7 @@
     <event guid="53309795-003f-4a13-8c61-dcb42c13c1ba">
       <start>10:55</start>
       <duration>00:20</duration>
-      <title>DataLad-Registry: A Registry of DataLad Datasets with Metadata</title>
+      <title>Datalad-Registry: Bringing Benefits of Centrality to Datalad</title>
       <abstract>
         Talk on datalad-registry - a registry of datalad datasets with
         metadata extracted.
