@@ -635,8 +635,8 @@
       <duration>00:20</duration>
       <title>Datalad-Registry: Bringing Benefits of Centrality to Datalad</title>
       <abstract>
-        Datalad-Registry is a service that maintains up-to-date information on tens of
-        thousands of datasets, with the collection expanding as more datasets are added.
+        Datalad-Registry is a service that maintains up-to-date information on over ten
+        thousand datasets, with the collection expanding as more datasets are added.
         This talk will explore how Datalad-Registry automatically registers datasets from
         the internet, extracts metadata from them, and keeps these datasets and their
         corresponding metadata up-to-date. We'll showcase the datasets and metadata
