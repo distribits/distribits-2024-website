@@ -57,8 +57,34 @@
         <duration>00:20</duration>
         <title>"what's in the Datalad sandwich" AKA DataLad "ecosystem"</title>
         <abstract>
-          Overview of the core and extensions, CIs, testing, building
-          (git-annex), logs archival (con/tinuous).
+		  At the heart of many innovative tools lies a simple spark of
+		  necessity. For DataLad, that spark was a father's quest in
+		  2013 for an effortless way to access free children's
+		  cartoons and movies. What started to scratch a
+		  personal itch, has evolved into a grant funded DataLad
+		  platform addressing a broad range of data logistics
+		  challenges. Utilizing the strengths of git and git-annex,
+		  DataLad has not only expanded its capabilities but has also
+		  contributed to the enhancement of git-annex features,
+		  tailor-made to suit its needs. Through the innovative use of
+		  git external protocols and git-annex external special
+		  remotes, DataLad offers a seamless experience to users,
+		  fetching data with remarkable flexibility.
+		  To push the boundaries further, DataLad introduced an
+		  "extensions mechanism," enabling the platform to adapt and
+		  extend beyond its core functionalities. This modular
+		  architecture, while offering unparalleled flexibility, hints
+		  at a potential for complexity and fragility.
+		  In this presentation, I will take you on a journey through
+		  the foundational elements that give DataLad its unique
+		  extensibility—spanning git, git-annex, and beyond—with few
+		  practical examples that bring these concepts to
+		  life. Despite the inherent challenges of a modular system,
+		  our dedicated "dev-ops" components, which I will
+		  demonstrate, ensure a stable and efficient ecosystem. By
+		  developing, testing, and distributing these components,
+		  we've crafted not just a tool, but a robust platform ready
+		  to tackle the data logistics needs of today and tomorrow.
         </abstract>
         <persons>
           <person>Yaroslav Halchenko</person>
