@@ -55,7 +55,7 @@
       <event guid="58439357-716a-443c-9659-2e941e2fa921">
         <start>09:30</start>
         <duration>00:20</duration>
-        <title>"what's in the Datalad sandwich" AKA DataLad "ecosystem"</title>
+        <title>"What's in the DataLad sandwich" AKA DataLad "ecosystem"</title>
         <abstract>
           Overview of the core and extensions, CIs, testing, building
           (git-annex), logs archival (con/tinuous).
@@ -78,7 +78,7 @@
           git-annex, or a new command be added to improve some use case,
           both of those can also be accomplished without needing changes
           to git-annex, by external remotes and more targeted frontends
-          such as Datalad.
+          such as DataLad.
           So what then is the potential surface area of problem space
           that git-annex may expand to cover? Do diminishing returns and
           complexity make such expansions a good idea? I will explore
@@ -304,9 +304,9 @@
           need for rigorous research data management. Questions such as
           "which component data was used in which system?" or the
           provenance of component data come to the fore.  To answer
-          these questions, Datalad is used to store disparate data,
+          these questions, DataLad is used to store disparate data,
           models, settings and results in an effective and distributed
-          manner. Datalad's provenance reduces the redundancy of storage
+          manner. DataLad's provenance reduces the redundancy of storage
           and the effort required for publication, while increasing
           confidence in the results. This is done in the context of a
           research project, but the same questions arise for the
@@ -348,7 +348,7 @@
         <abstract>
           HPC systems have particular hard- and software configurations that
           introduce specific challenges for the implementation of reproducible
-          data processing workflows. The Datalad based 'FAIRly big workflow'
+          data processing workflows. The DataLad based 'FAIRly big workflow'
           allows for a separation of the compute environment from the
           processing pipeline enabling automatic reproducibility over systems.
           Yet, the sheer size of RAM and CPUs on HPC systems will allow for
@@ -633,18 +633,18 @@
     <event guid="53309795-003f-4a13-8c61-dcb42c13c1ba">
       <start>10:55</start>
       <duration>00:20</duration>
-      <title>Datalad-Registry: Bringing Benefits of Centrality to Datalad</title>
+      <title>DataLad-Registry: Bringing Benefits of Centrality to DataLad</title>
       <abstract>
-        Datalad-Registry is a service that maintains up-to-date information on over ten
+        DataLad-Registry is a service that maintains up-to-date information on over ten
         thousand datasets, with the collection expanding as more datasets are added.
-        This talk will explore how Datalad-Registry automatically registers datasets from
+        This talk will explore how DataLad-Registry automatically registers datasets from
         the internet, extracts metadata from them, and keeps these datasets and their
         corresponding metadata up-to-date. We'll showcase the datasets and metadata
-        types currently available within Datalad-Registry and demonstrate the service's
+        types currently available within DataLad-Registry and demonstrate the service's
         search capability. Additionally, we'll provide an overview of the API and reveal
-        the underlying service components of Datalad-Registry. The presentation will
+        the underlying service components of DataLad-Registry. The presentation will
         conclude with a discussion on ongoing and future developments, inviting audience
-        input to shape the future of Datalad-Registry.
+        input to shape the future of DataLad-Registry.
       </abstract>
       <persons>
         <person>Isaac To</person>
