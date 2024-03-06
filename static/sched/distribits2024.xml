@@ -423,10 +423,8 @@
       <event guid="21380a3f-758a-4d64-88f3-c2fa6ea5eb2a">
         <start>08:30</start>
         <duration>00:30</duration>
-        <title>Coffee</title>
-        <description>
-          Coffee time!
-        </description>
+        <title>Arrival and registration</title>
+        <description>Talk to (new) friends, get comfortable for the 2nd day</description>
       </event>
 
       <event guid="d815e458-5b41-4f68-b70c-b33b800de40f">
