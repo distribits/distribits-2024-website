@@ -234,19 +234,7 @@
       <event guid="ed7839f6-1ee2-43c4-88e3-11d675700556">
         <start>14:00</start>
         <duration>00:20</duration>
-        <title>GIN-Tonic: (trying to) making datalad accessible to non-coders</title>
-        <abstract>
-          With the GIN-Tonic suite, we work toward a workflow where the
-          users only needs to use the browser and some synchronisation
-          scripts to manage their datalad repositories. Settings are
-          prepared in a template (including submodules) and a browser
-          extension (written in Go) create new repositories from that
-          template.  I would report on successes and failures of the
-          strategy.
-        </abstract>
-        <persons>
-          <person>Julien Colomb</person>
-        </persons>
+        <title>To be rescheduled</title>
       </event>
 
       <event guid="7e45daa0-f220-4be3-ab2e-03f966ce0f91">
