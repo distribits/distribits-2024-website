@@ -415,15 +415,24 @@
         <description>Talk to (new) friends, get comfortable for the 2nd day</description>
       </event>
 
+      <event guid="4c150efe-2a2b-450b-98ad-bb3294d61c1d">
+        <start>10:15</start>
+        <duration>00:30</duration>
+        <title>Coffee</title>
+        <description>
+          Coffee time!
+        </description>
+      </event>
+
       <event guid="d815e458-5b41-4f68-b70c-b33b800de40f">
-        <start>12:00</start>
+        <start>12:15</start>
         <duration>01:30</duration>
         <title>Lunch (self-organized, outside venue)</title>
         <description>Lunch time (self-organized, outside venue)</description>
       </event>
 
       <event guid="786aa8b8-ffe9-4e00-8ec5-80ffa1a33ea3">
-        <start>15:10</start>
+        <start>15:05</start>
         <duration>00:30</duration>
         <title>Coffee</title>
         <description>
@@ -433,10 +442,9 @@
 
       <event guid="fee8cb07-1c0b-4164-b40b-b1d6668bd1e1">
         <start>17:00</start>
-        <duration>01:00</duration>
-        <title>Dinner and social (self-organized, outside venue)</title>
-        <description>
-          Dinner and social time (self-organized, outside venue)
+        <duration>00:30</duration>
+        <title>End of the conference</title>
+        <description>Head out to a self-organized dinner and social time, or catch the train home. Venue closing at 17:30.
         </description>
       </event>
 
@@ -507,7 +515,7 @@
     </event>
 
     <event guid="3bfa442d-5c64-48bd-924a-7657f9c0ab8a">
-      <start>10:15</start>
+      <start>10:45</start>
       <duration>00:20</duration>
       <title>Fusion of Multiple Open Source Applications for Data Management Workflows in Psychology and Neuroscience</title>
       <abstract>
@@ -562,7 +570,7 @@
     </event>
 
     <event guid="7ba85db5-acd0-49ed-8981-e01556937cad">
-      <start>10:35</start>
+      <start>11:05</start>
       <duration>00:20</duration>
       <title>Balancing Efficiency and Standardization for a Microscopic Image Repository on an HPC System</title>
       <abstract>
@@ -659,7 +667,7 @@
     </event>
 
     <event guid="53309795-003f-4a13-8c61-dcb42c13c1ba">
-      <start>10:55</start>
+      <start>11:25</start>
       <duration>00:20</duration>
       <title>DataLad-Registry: Bringing Benefits of Centrality to DataLad</title>
       <abstract>
@@ -681,8 +689,8 @@
     </event>
 
     <event guid="75f3bdf7-674e-448d-a08a-1eb878d144fc">
-      <start>11:15</start>
-      <duration>00:45</duration>
+      <start>11:45</start>
+      <duration>00:30</duration>
       <title>Questions and panel discussion</title>
       <abstract>
         Questions and panel discussion
@@ -690,7 +698,7 @@
     </event>
 
     <event guid="4fc2a76d-13be-41fc-bc09-cfcb170ad4ab">
-      <start>13:50</start>
+      <start>13:45</start>
       <duration>00:40</duration>
       <title>Reproducible and replicable data science in the presence of patient confidentiality concerns by utilizing git-annex and the Data Science Orchestrator</title>
       <abstract>
@@ -730,7 +738,7 @@
     </event>
 
     <event guid="f465a39d-4ed4-4609-80e0-8373e2c28739">
-      <start>14:30</start>
+      <start>14:25</start>
       <duration>00:20</duration>
       <title>A Tour of Magit</title>
       <abstract>
@@ -746,7 +754,7 @@
     </event>
 
     <event guid="44622511-c5c2-4ca8-9978-fa1a153b8f80">
-      <start>14:50</start>
+      <start>14:45</start>
       <duration>00:20</duration>
       <title>Questions and panel discussion</title>
       <abstract>
@@ -758,7 +766,7 @@
     </event>
 
     <event guid="a81918df-a057-48b1-b016-ce31f59b02a3">
-      <start>15:40</start>
+      <start>15:35</start>
       <duration>00:40</duration>
       <title>Distributed Metadata and Data with Dataverse</title>
       <abstract>
@@ -779,8 +787,8 @@
     </event>
 
     <event guid="42070d09-8bc1-459f-a24a-decd1382e301">
-      <start>16:20</start>
-      <duration>00:40</duration>
+      <start>16:15</start>
+      <duration>00:45</duration>
       <title>Unconference</title>
       <abstract>
         Unconference slot
