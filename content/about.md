@@ -25,21 +25,21 @@ Some people will have expertise with tools like git-annex and DataLad, but this 
 
 ### Conference
 
-We are planning the conference as a single-track event.
-Participation will be free of charge for attendees, but requires registration.
-Space is limited, so attendees will be selected and confirmed based on the information they provide in their registration.
-People who are actively contributing to the program will have priority.
+The conference will be a single-track event.
+Participation is free of charge for attendees, but requires registration.
+Space is limited, so attendees are be selected and confirmed based on the information they provide in their registration.
+People who are actively contributing to the program have priority.
 
-For this first meeting the format of contributions is pretty flexible. We envision, but are not limited to:
+For this first meeting the format of contributions is pretty flexible.
 
-1. **Talks:** presentations (ca. 20-30 minutes, final duration will be communicated to speakers) on research, case studies, practical applications or theoretical developments.
-2. **Lightning Talks:** quick five-minute presentations that introduce new ideas, projects, demo software, or share tips and tricks about workflows and tools.
-3. **Discussions:** moderated conversations with a panel about particular topics or issues. Proposals should include a list of panelists and a moderator.
+1. **Talks:** presentations (ca. 20 minutes) on research, case studies, practical applications or theoretical developments.
+2. **Lightning Talks:** brief presentations that introduce new ideas, projects, demo software, or share tips and tricks about workflows and tools.
+3. **Discussions:** moderated conversations with a panel about particular topics or issues.
 
 
 ### Hackathon
 
-The conference will be followed by a hackathon day providing opportunities for attendees to further connect and collaborate in a more hands-on fashion.
+The conference is followed by a hackathon day providing opportunities for attendees to further connect and collaborate in a more hands-on fashion.
 The capacity for this event is smaller. We thus ask everyone interested to indicate during the registration if they want to attend the hackathon, too. As we may receive more hackathon registrations than we can accommodate, attendees will be confirmed **separately** for the hackathon. A project proposal for this day or strong indication of interest during the registration can help us in the selection process.
 We plan to prioritize efforts that promote interoperability of tools and workflows with free and open solutions.
 
@@ -49,7 +49,7 @@ We plan to prioritize efforts that promote interoperability of tools and workflo
 Notifications for registration acceptance have been sent out (November 1st).
 Thank you for shaping an exciting event with your contribution!
 
-However, if you missed the registration deadline, don't worry! It is now possible to
+However, if you missed the registration deadline, don't worry! It is possible to
 [submit a late registration](https://cryptpad.fr/form/#/2/form/view/jnreOeG+ja0DXCESlqkgf6WRqz7vhMmxzROMyJL+q5g/)
 for the conference, and add yourself to the hackathon waiting list.
 We plan to accept conference registrations until we reach the venue capacity.
