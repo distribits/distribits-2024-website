@@ -234,7 +234,27 @@
       <event guid="ed7839f6-1ee2-43c4-88e3-11d675700556">
         <start>14:00</start>
         <duration>00:20</duration>
-        <title>To be rescheduled</title>
+        <title>NeuroBagel and NiPoppy for a neuro-federation</title>
+        <abstract>
+          We present an ecosystem consisting of NeuroBagel, a distributed
+          and scalable approach based on semantic web technologies for
+          harmonizing and sharing phenotypic and neuroimaging variables
+          with a DataLad backend, and NiPoppy, a specification for MRI
+          processings to integrate derived data and curation information.
+          We used NeuroBagel tools to harmonize the OpenNeuro MRI data as
+          well as several Parkinson datasets (Quebec Parkinson Network,
+          Parkinson Progression Marker Initiative, etc) and will demonstrate
+          how new neuroimaging cohorts can be defined from several
+          distributed open or close datasets. We will show how NiPoppy,
+          extending BIDS, could help with the standardization of the
+          management and monitoring of neuroimaging data processing.
+          We hope that the proposed distributed ecosystem will foster
+          easier and more scalable neuroimaging datasharing and contribute
+          to more diverse and large samples in machine learning applications.
+        </abstract>
+        <persons>
+          <person>JB Poline</person>
+        </persons>
       </event>
 
       <event guid="7e45daa0-f220-4be3-ab2e-03f966ce0f91">
