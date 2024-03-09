@@ -27,7 +27,7 @@ Some people will have expertise with tools like git-annex and DataLad, but this 
 
 The conference will be a single-track event.
 Participation is free of charge for attendees, but requires registration.
-Space is limited, so attendees are be selected and confirmed based on the information they provide in their registration.
+Space is limited, so attendees are selected and confirmed based on the information they provide in their registration.
 People who are actively contributing to the program have priority.
 
 For this first meeting the format of contributions is pretty flexible.
