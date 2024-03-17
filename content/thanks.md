@@ -4,8 +4,6 @@ menu: "main"
 weight: 8
 ---
 
-## Thanks!
-
 This meeting is a collaborative effort.
 It would not have been possible to make it happen without the support of the following individuals and organizations:
 
