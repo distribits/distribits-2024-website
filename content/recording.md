@@ -1,7 +1,7 @@
 ---
 title: "Media coverage"
 menu: "main"
-weight: 10
+weight: 7
 ---
 
 
