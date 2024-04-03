@@ -30,10 +30,7 @@ The event will take place at [Haus der Universität](https://www.hdu.hhu.de/en) 
 
 ### Accessibility
 
-The venue is in-principle equipped with handicapped accessible facilities.
-The main entrance stair lift, however, is currently broken.
-Please refer to the [official website](https://www.hdu.hhu.de/en) for updates.
-If you require a stair lift, please contact distribits-org@fz-juelich.de.
+The venue is equipped with handicapped accessible facilities.
 
 A separate room is available for nursing or prayer.
 
