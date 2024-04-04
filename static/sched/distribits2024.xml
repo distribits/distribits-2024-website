@@ -492,9 +492,9 @@
       <event guid="4c150efe-2a2b-450b-98ad-bb3294d61c1d">
         <start>10:15</start>
         <duration>00:30</duration>
-        <title>Coffee</title>
+        <title>Coffee and key signing</title>
         <description>
-          Coffee time!
+          Coffee time! But also: Bring your PGP keys for a key-signing session.
         </description>
       </event>
 
