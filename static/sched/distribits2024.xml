@@ -153,52 +153,8 @@
           Questions and panel discussion
         </abstract>
       </event>
-
-      <event guid="2f3f7aaf-7352-40ab-b0f0-075d294d7be9">
-        <start>11:30</start>
-        <duration>00:20</duration>
-        <title>Git annex recipes</title>
-        <abstract>
-          I have come up with many recipes over the years for scaling
-          git-annex repositories in terms of large numbers of keys,
-          large file sizes, and increased transfer efficiency.
-          I have working examples that I use internally that I can
-          demonstrate. (1) Second-order keys; using metadata to describe
-          keys that can be derived from other keys. I primarily used
-          this to help with the problem of too many keys referencing
-          small files. This is building off of the work of others, but I
-          believe I have made useful improvements, and I would like to
-          polish it up and share it.
-          One very early example is here:
-          https://github.com/unqueued/repo.macintoshgarden.org-fileset/
-          For now, I stripped out all but the location data from the
-          git-annex branch.  Files smaller than 50M are contained in
-          second-order keys (8b0b0af8-5e76-449c-b0ae-766fcac0bc58). The
-          other uuids are for standard backends, including a Google
-          Drive account which has very strict limits on requests, and it
-          would have been very difficult to process over 10k keys
-          directly.  There are also other cases where keys can be
-          reliably reproduced from other keys.
-          (2) Differential storage with git-annex using bup (or borg). I
-          built of off posts on the forums from years ago, and came up
-          with some really useful workflows for combining the benefits
-          of git-annex location tracking and branching with differential
-          compression. I have scripts used for automation, and some
-          example repos and case studies. For example, I have a repo
-          which contains file indexes that are over 60GiB, but only
-          consume about 6GiB, using bup packfiles. I can benefit from
-          differential compression over different time ranges, like per
-          year, or for the entire history, while minimizing storage
-          usage. I will publish a working example in the next few weeks,
-          but I have only used it internally for years.
-        </abstract>
-        <persons>
-          <person>Timothy Sanders</person>
-        </persons>
-      </event>
-
       <event guid="f6152865-f078-400e-94b1-2a6dc56bd00e">
-        <start>11:50</start>
+        <start>11:30</start>
         <duration>00:20</duration>
         <title>OpenNeuro and DataLad</title>
         <abstract>
@@ -221,6 +177,104 @@
           <person>Nell Hardcastle</person>
         </persons>
       </event>
+
+      <event guid="7ba85db5-acd0-49ed-8981-e01556937cad">
+        <start>11:50</start>
+        <duration>00:20</duration>
+        <title>Balancing Efficiency and Standardization for a Microscopic Image Repository on an HPC System</title>
+        <abstract>
+        Understanding the human brain is one of the greatest
+        challenges of modern science. In order to study its complex
+        structural and functional organization, data from different
+        modalities and resolutions must be linked together. This
+        requires scalable and reproducible workflows ranging from the
+        extraction of multimodal data from different repositories to
+        AI-driven analysis and visualization [1]. One fundamental
+        challenge therein is to store and organize big image datasets
+        in appropriate repositories. Here we address the case of
+        building a repository of high-resolution microscopy scans for
+        whole human brain sections in the order of multiple Petabytes
+        [1]. Since data duplication is prohibitive for such volumes,
+        images need to be stored in a way that follows community
+        standards, supports provenance tracking, and meets performance
+        requirements of high-throughput ingestion, highly parallel
+        processing on HPC systems, as well as ad-hoc random access for
+        interactive visualization.
+        To digitize an entire human brain, high-throughput scanners
+        need to capture over 7000 histological brain sections. During
+        this process, a scanner acquires a z-stack, which consists of
+        30 TIFF images per tissue section, each representing a
+        different focus level. The images are automatically
+        transferred from the scanner to a gateway server, where they
+        are pre-organised into subfolders per brain section for
+        detailed automated quality control (QC). Once a z-stack passes
+        QC, it is transferred to the parallel file system (GPFS) on
+        the supercomputer via NFS-mount. For one human brain, this
+        results in 7000 folders with about 2 PByte of image data in
+        about 20K files in total. From there, the data are accessed
+        simultaneously by different applications and pipelines with
+        their very heterogeneous requirements. HPC analyses based on
+        Deep Learning such as cell segmentation or brain mapping rely
+        on fast random access and parallel I/O to stream image patches
+        efficiently to GPUs. Remote visualization and annotation on
+        the other hand requires exposure of the data through an HTTP
+        service on a VM, with access to higher capacity storage to
+        serve different data at the same time. These demands can be
+        covered by multi-tier HPC storage, which provides dedicated
+        partitions. The High Performance Storage Tier offers low
+        latency and high bandwidth for analysis, while the Extended
+        Capacity Storage Tier is capacity-optimized with a lower
+        latency, meeting the needs for visualization. Exposing the
+        data on different tiers requires controlled staging and
+        unstaging. We organize the image data folders via DataLad
+        datasets, which allows well defined staging across these
+        partitions for different applications, ensures that all data
+        is tracked and versioned from distributed storage throughout
+        the workflow, and enables provenance tracking. To reduce the
+        number of files in one DataLad repository, each section folder
+        has been designed as a subdataset of a superdataset that
+        contains all section folders.
+        The current approach to managing data has two
+        deficiencies. Firstly, the TIFF format is not optimized for
+        HPC usage due to the lack of parallel I/O support, resulting
+        in data duplication due to conversion to HDF5. Secondly, the
+        current data organization is not compatible with upcoming
+        community standards, complicating collaborative
+        efforts. Therefore, standardization of the file format and
+        folder structure is a major objective for the near future. The
+        widely accepted community standard for organizing neuroscience
+        data is the Brain Imaging Data Structure (BIDS). Its extension
+        for microscopy proposes splitting the data into subjects and
+        samples, while using either (OME-)TIFF or OME-ZARR as a file
+        format. Particularly, the NGFF file format OME-ZARR appears to
+        be the suitable choice for the workflow described, as it is
+        more performant on HPC and cloud compatible as opposed to
+        TIFF. However, restructuring the current data layout is a
+        complex task. Adopting the BIDS standard results in large
+        amounts of inodes and files because (1) multiple folders and
+        sidecar files are created and (2) OME-ZARR files are comprised
+        of many small files. DataLad annex undergoes expansion with
+        the increase in the number of files leading to high inode
+        usage and reduced performance. An effective solution to this
+        problem may involve the optimization of the size of DataLad
+        subdatasets. However, the key consideration is that GPFS file
+        systems enforce a limit on the number of inodes, which cannot
+        be surpassed. This raises the following questions: How can
+        usage of inodes be minimized while adhering to BIDS and
+        utilizing DataLad?  Should performant file formats with
+        minimal inode usage, such as ZARR v3 or HDF5, be incorporated
+        into the BIDS standard? What is a good balance for DataLad
+        subdataset sizes? Discussions with the community may provide
+        valuable perspectives for advancing this issue.
+        [1] Amunts K, Lippert T. Brain research challenges
+        supercomputing. Science 374, 1054-1055
+        (2021). DOI:10.1126/science.abl8519
+        </abstract>
+        <persons>
+        <person>Julia Thönnißen</person>
+      </persons>
+    </event>
+
 
       <event guid="10b5e56d-acd3-4fbf-9441-aaee5387838f">
         <start>12:10</start>
@@ -591,102 +645,51 @@
       </persons>
     </event>
 
-    <event guid="7ba85db5-acd0-49ed-8981-e01556937cad">
-      <start>11:05</start>
-      <duration>00:20</duration>
-      <title>Balancing Efficiency and Standardization for a Microscopic Image Repository on an HPC System</title>
-      <abstract>
-        Understanding the human brain is one of the greatest
-        challenges of modern science. In order to study its complex
-        structural and functional organization, data from different
-        modalities and resolutions must be linked together. This
-        requires scalable and reproducible workflows ranging from the
-        extraction of multimodal data from different repositories to
-        AI-driven analysis and visualization [1]. One fundamental
-        challenge therein is to store and organize big image datasets
-        in appropriate repositories. Here we address the case of
-        building a repository of high-resolution microscopy scans for
-        whole human brain sections in the order of multiple Petabytes
-        [1]. Since data duplication is prohibitive for such volumes,
-        images need to be stored in a way that follows community
-        standards, supports provenance tracking, and meets performance
-        requirements of high-throughput ingestion, highly parallel
-        processing on HPC systems, as well as ad-hoc random access for
-        interactive visualization.
-        To digitize an entire human brain, high-throughput scanners
-        need to capture over 7000 histological brain sections. During
-        this process, a scanner acquires a z-stack, which consists of
-        30 TIFF images per tissue section, each representing a
-        different focus level. The images are automatically
-        transferred from the scanner to a gateway server, where they
-        are pre-organised into subfolders per brain section for
-        detailed automated quality control (QC). Once a z-stack passes
-        QC, it is transferred to the parallel file system (GPFS) on
-        the supercomputer via NFS-mount. For one human brain, this
-        results in 7000 folders with about 2 PByte of image data in
-        about 20K files in total. From there, the data are accessed
-        simultaneously by different applications and pipelines with
-        their very heterogeneous requirements. HPC analyses based on
-        Deep Learning such as cell segmentation or brain mapping rely
-        on fast random access and parallel I/O to stream image patches
-        efficiently to GPUs. Remote visualization and annotation on
-        the other hand requires exposure of the data through an HTTP
-        service on a VM, with access to higher capacity storage to
-        serve different data at the same time. These demands can be
-        covered by multi-tier HPC storage, which provides dedicated
-        partitions. The High Performance Storage Tier offers low
-        latency and high bandwidth for analysis, while the Extended
-        Capacity Storage Tier is capacity-optimized with a lower
-        latency, meeting the needs for visualization. Exposing the
-        data on different tiers requires controlled staging and
-        unstaging. We organize the image data folders via DataLad
-        datasets, which allows well defined staging across these
-        partitions for different applications, ensures that all data
-        is tracked and versioned from distributed storage throughout
-        the workflow, and enables provenance tracking. To reduce the
-        number of files in one DataLad repository, each section folder
-        has been designed as a subdataset of a superdataset that
-        contains all section folders.
-        The current approach to managing data has two
-        deficiencies. Firstly, the TIFF format is not optimized for
-        HPC usage due to the lack of parallel I/O support, resulting
-        in data duplication due to conversion to HDF5. Secondly, the
-        current data organization is not compatible with upcoming
-        community standards, complicating collaborative
-        efforts. Therefore, standardization of the file format and
-        folder structure is a major objective for the near future. The
-        widely accepted community standard for organizing neuroscience
-        data is the Brain Imaging Data Structure (BIDS). Its extension
-        for microscopy proposes splitting the data into subjects and
-        samples, while using either (OME-)TIFF or OME-ZARR as a file
-        format. Particularly, the NGFF file format OME-ZARR appears to
-        be the suitable choice for the workflow described, as it is
-        more performant on HPC and cloud compatible as opposed to
-        TIFF. However, restructuring the current data layout is a
-        complex task. Adopting the BIDS standard results in large
-        amounts of inodes and files because (1) multiple folders and
-        sidecar files are created and (2) OME-ZARR files are comprised
-        of many small files. DataLad annex undergoes expansion with
-        the increase in the number of files leading to high inode
-        usage and reduced performance. An effective solution to this
-        problem may involve the optimization of the size of DataLad
-        subdatasets. However, the key consideration is that GPFS file
-        systems enforce a limit on the number of inodes, which cannot
-        be surpassed. This raises the following questions: How can
-        usage of inodes be minimized while adhering to BIDS and
-        utilizing DataLad?  Should performant file formats with
-        minimal inode usage, such as ZARR v3 or HDF5, be incorporated
-        into the BIDS standard? What is a good balance for DataLad
-        subdataset sizes? Discussions with the community may provide
-        valuable perspectives for advancing this issue.
-        [1] Amunts K, Lippert T. Brain research challenges
-        supercomputing. Science 374, 1054-1055
-        (2021). DOI:10.1126/science.abl8519
-      </abstract>
-      <persons>
-        <person>Julia Thönnißen</person>
-      </persons>
-    </event>
+
+      <event guid="2f3f7aaf-7352-40ab-b0f0-075d294d7be9">
+        <start>11:05</start>
+        <duration>00:20</duration>
+        <title>Git annex recipes</title>
+        <abstract>
+          I have come up with many recipes over the years for scaling
+          git-annex repositories in terms of large numbers of keys,
+          large file sizes, and increased transfer efficiency.
+          I have working examples that I use internally that I can
+          demonstrate. (1) Second-order keys; using metadata to describe
+          keys that can be derived from other keys. I primarily used
+          this to help with the problem of too many keys referencing
+          small files. This is building off of the work of others, but I
+          believe I have made useful improvements, and I would like to
+          polish it up and share it.
+          One very early example is here:
+          https://github.com/unqueued/repo.macintoshgarden.org-fileset/
+          For now, I stripped out all but the location data from the
+          git-annex branch.  Files smaller than 50M are contained in
+          second-order keys (8b0b0af8-5e76-449c-b0ae-766fcac0bc58). The
+          other uuids are for standard backends, including a Google
+          Drive account which has very strict limits on requests, and it
+          would have been very difficult to process over 10k keys
+          directly.  There are also other cases where keys can be
+          reliably reproduced from other keys.
+          (2) Differential storage with git-annex using bup (or borg). I
+          built of off posts on the forums from years ago, and came up
+          with some really useful workflows for combining the benefits
+          of git-annex location tracking and branching with differential
+          compression. I have scripts used for automation, and some
+          example repos and case studies. For example, I have a repo
+          which contains file indexes that are over 60GiB, but only
+          consume about 6GiB, using bup packfiles. I can benefit from
+          differential compression over different time ranges, like per
+          year, or for the entire history, while minimizing storage
+          usage. I will publish a working example in the next few weeks,
+          but I have only used it internally for years.
+        </abstract>
+        <persons>
+          <person>Timothy Sanders</person>
+        </persons>
+      </event>
+
+
 
     <event guid="53309795-003f-4a13-8c61-dcb42c13c1ba">
       <start>11:25</start>
