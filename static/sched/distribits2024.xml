@@ -646,51 +646,26 @@
       </persons>
     </event>
 
+    <event guid="2f3f7aaf-7352-40ab-b0f0-075d294d7be9">
+      <start>11:05</start>
+      <duration>00:20</duration>
+      <title>Git annex recipes</title>
+      <abstract>
+        This talk will be a survey of various recipes I have come up with for git-annex.
+        This includes 1) Discussion of git-annex as a format and it's implications
+        2) usage of git-annex for collaborative mirroring of non-scientific datasets
+        3) Using git-annex for system administrative purposes, including integration
+        with Gentoo portage 4) Techniques for handling large numbers of keys by
+        reconstructing subset repos and 5) Leveraging BTRFS for transferring data
+        outside of git-annex.
 
-      <event guid="2f3f7aaf-7352-40ab-b0f0-075d294d7be9">
-        <start>11:05</start>
-        <duration>00:20</duration>
-        <title>Git annex recipes</title>
-        <abstract>
-          I have come up with many recipes over the years for scaling
-          git-annex repositories in terms of large numbers of keys,
-          large file sizes, and increased transfer efficiency.
-          I have working examples that I use internally that I can
-          demonstrate. (1) Second-order keys; using metadata to describe
-          keys that can be derived from other keys. I primarily used
-          this to help with the problem of too many keys referencing
-          small files. This is building off of the work of others, but I
-          believe I have made useful improvements, and I would like to
-          polish it up and share it.
-          One very early example is here:
-          https://github.com/unqueued/repo.macintoshgarden.org-fileset/
-          For now, I stripped out all but the location data from the
-          git-annex branch.  Files smaller than 50M are contained in
-          second-order keys (8b0b0af8-5e76-449c-b0ae-766fcac0bc58). The
-          other uuids are for standard backends, including a Google
-          Drive account which has very strict limits on requests, and it
-          would have been very difficult to process over 10k keys
-          directly.  There are also other cases where keys can be
-          reliably reproduced from other keys.
-          (2) Differential storage with git-annex using bup (or borg). I
-          built of off posts on the forums from years ago, and came up
-          with some really useful workflows for combining the benefits
-          of git-annex location tracking and branching with differential
-          compression. I have scripts used for automation, and some
-          example repos and case studies. For example, I have a repo
-          which contains file indexes that are over 60GiB, but only
-          consume about 6GiB, using bup packfiles. I can benefit from
-          differential compression over different time ranges, like per
-          year, or for the entire history, while minimizing storage
-          usage. I will publish a working example in the next few weeks,
-          but I have only used it internally for years.
-        </abstract>
-        <persons>
-          <person>Timothy Sanders</person>
-        </persons>
-      </event>
-
-
+	See notes here:
+	https://gist.github.com/unqueued/8db6361b66224a84edf9d0d0bbe58439
+      </abstract>
+      <persons>
+        <person>Timothy Sanders</person>
+      </persons>
+    </event>
 
     <event guid="53309795-003f-4a13-8c61-dcb42c13c1ba">
       <start>11:25</start>
