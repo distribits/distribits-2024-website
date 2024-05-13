@@ -23,6 +23,9 @@ theme = "PaperMod2"
 #    name = "🚀 Register"
 #    url = 'https://cryptpad.fr/form/#/2/form/view/jnreOeG+ja0DXCESlqkgf6WRqz7vhMmxzROMyJL+q5g/'
 
+  [[params.profileMode.buttons]]
+    name = "Watch Distribits 2024 recordings"
+    url = 'https://www.youtube.com/playlist?list=PLEQHbPfpVqU6esVrgqjfYybY394XD2qf2'
   # repeat as many times as needed
   # icon names -> grep icon_name themes/PaperMod/layouts/partials/svg.html
   [[params.socialIcons]]
